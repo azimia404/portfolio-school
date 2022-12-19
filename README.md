@@ -1,4 +1,4 @@
-# Portfolio work. 
+# ITDVN online programming courses. Portfolio work. 
 
 A copy of [ITVDN online programming courses page](https://itvdn.com/ru).
 
