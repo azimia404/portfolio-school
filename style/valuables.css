@@ -1,0 +1,24 @@
+﻿:root {
+	--primary-font: 'Roboto',sans-serif;
+	--gray: #646f75;
+	--dark-gray: #303D46;
+	--low-gray: #3B4750;
+	--gray-e1: #E1E1E1;
+	--light-gray: #4D5861;
+	--pure-gray: #8B9298;
+	--light-pure-gray: #EFF0F1;
+	--low-pure-gray: #556068;
+	--platinum: #636d74;
+	--dark-platinum: #5c656c;
+	--white: #fff;
+	--f6: #F6F6F6;
+	--orange: #f3520c;
+	--dark-orange: #E54D0A;
+	--yellow: #e9c200;
+	--cyan: #4CC3B0;
+	--dark-cyan: #41bfab;
+	--blue: #3DC5EB;
+	--green: #33CC00;
+	--purple: #CC33CC;
+	--black: #000;
+}

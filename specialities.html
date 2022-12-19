@@ -1,0 +1,1185 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+	<meta charset="utf-8" />
+	<link href="style/main.css" type="text/css" rel="stylesheet" />
+	<link href="style/valuables.css" type="text/css" rel="stylesheet" />
+	<link href="style/typography.css" type="text/css" rel="stylesheet" />
+	<link href="style/elements.css" type="text/css" rel="stylesheet" />
+	<link href="style/grid.css" type="text/css" rel="stylesheet" />
+	<title>IT специальности</title>
+</head>
+<body id="specialities">
+<div class="loader-wrapper">
+	<div class="loader">
+		<div class="loader-panel"></div>
+		<div class="loader-panel"></div>
+		<div class="loader-panel"></div>
+		<div class="loader-panel"></div>
+	</div>
+</div>
+
+<aside class="side-bar">
+	<header class="side-bar-header">
+		<a href="home.html">
+			<h1 class="side-bar-title">
+				<img class="logo" src="style/img/logo.svg" alt="ITDVN" title="ITDVN" /><span class="logo-text">Видеокурсы по
+программированию</span></h1>
+		</a>
+		<div class="mobile-button-wrapper">
+			<a href="#" class="fal fa-user mobile-button"></a>
+			<a href="#" class="fal fa-bars mobile-button"></a>
+		</div>
+	</header>
+	<div class="positioner">
+
+		<nav class="side-bar-nav">
+			<ul class="nav-list">
+				<li class="list-item"><a class="nav-link far fa-film-alt" href="catalog.html"><span class="nav-link__text">Каталог видеокурсов</span></a></li>
+				<li class="list-item">
+					<a class="nav-link dropdown-item fab fa-galactic-senate" href="specialities.html"><span class="nav-link__text">IT специальности</span></a>
+					<div class="side-bar-item-dropdown dd-grid dd-column">
+						<ul class="nav-list dd-h-gap-0 dd-c-c-3">
+							<li class="list-item"><a class="nav-link fal fa-id-card-alt" href="start.html">С чего начать?</a></li>
+							<li class="list-item"><a class="nav-link fal fa-alarm-clock" href="frontend_developer.html">Front-end</a></li>
+							<li class="list-item"><a class="nav-link fab fa-youtube" href="#">Верстка сайтов</a></li>
+							<li class="list-item"><a class="nav-link fal fa-calendar-alt" href="#">JavaScript</a></li>
+							<li class="list-item"><a class="nav-link fal fa-users" href="#">React</a></li>
+							<li class="list-item"><a class="nav-link fas fa-wallet" href="#">Angular</a></li>
+							<li class="list-item"><a class="nav-link fal fa-envelope" href="#">UI/UX Design</a></li>
+							<li class="list-item"><a class="nav-link fal fa-id-card-alt" href="#">Python</a></li>
+							<li class="list-item"><a class="nav-link fal fa-alarm-clock" href="#">C#/.NET</a></li>
+							<li class="list-item"><a class="nav-link fab fa-youtube" href="#">ASP.NET Core</a></li>
+							<li class="list-item"><a class="nav-link fal fa-calendar-alt" href="#">ASP.NET MVC</a></li>
+							<li class="list-item"><a class="nav-link fal fa-users" href="#">C# WPF & UWP</a></li>
+							<li class="list-item"><a class="nav-link fas fa-wallet" href="#">Unity/Game Dev</a></li>
+							<li class="list-item"><a class="nav-link fal fa-envelope" href="#">Databases</a></li>
+							<li class="list-item"><a class="nav-link fal fa-id-card-alt" href="#">Java</a></li>
+							<li class="list-item"><a class="nav-link fal fa-alarm-clock" href="#">Android</a></li>
+							<li class="list-item"><a class="nav-link fab fa-youtube" href="#">iOS</a></li>
+							<li class="list-item"><a class="nav-link fal fa-calendar-alt" href="#">Quality Assurance</a></li>
+							<li class="list-item"><a class="nav-link fal fa-users" href="#">C++</a></li>
+							<li class="list-item"><a class="nav-link fas fa-wallet" href="#">PHP</a></li>
+							<li class="list-item"><a class="nav-link fal fa-envelope" href="#">Ruby</a></li>
+						</ul>
+						<a class="button framed-button button-medium orange dd-self-c" href="specialities.html">Все Специальности</a>
+					</div>
+				</li>
+				<li class="list-item">
+					<a class="nav-link dropdown-item fal fa-id-card-alt" href="live_online.html"><span class="nav-link__text">Обучение с тренером</span></a>
+					<div class="side-bar-item-dropdown dd-grid dd-column">
+						<ul class="nav-list w-310">
+							<li class="list-item"><a class="nav-link fal fa-alarm-clock" href="introduction_lesson.html">Ознакомительный Урок</a></li>
+							<li class="list-item"><a class="nav-link fab fa-youtube" href="employment_assistance.html">Помощь в трудоустройстве</a></li>
+							<li class="list-item"><a class="nav-link fal fa-calendar-alt" href="front_end_developer.html">Frontend Developer</a></li>
+							<li class="list-item"><a class="nav-link fal fa-users" href="front_end_developer.html">.NET Developer</a></li>
+							<li class="list-item"><a class="nav-link fas fa-wallet" href="front_end_developer.html">Java Developer</a></li>
+							<li class="list-item"><a class="nav-link fal fa-envelope" href="front_end_developer.html">Python Developer</a></li>
+						</ul>
+						<a class="button framed-button button-small orange dd-self-c" href="live_online.html">Live Online Обучение</a>
+					</div>
+				</li>
+				<li class="list-item"><a class="nav-link fal fa-alarm-clock" href="skills.html"><span class="nav-link__text">Интерактивный практикум</span></a></li>
+				<li class="list-item"><a class="nav-link fab fa-youtube" href="webinars.html"><span class="nav-link__text">Бесплатные вебинары</span></a></li>
+				<li class="list-item"><a class="nav-link fal fa-calendar-alt" href="subscriptions.html"><span class="nav-link__text">Цены на обучение</span></a></li>
+				<li class="list-item"><a class="nav-link fal fa-users" href="corporate_education.html"><span class="nav-link__text">Обучение сотрудников</span></a></li>
+				<li class="list-item">
+					<a href="shares.html" class="nav-link dropdown-item fas fa-wallet"><span class="nav-link__text">Акции и Новости</span></a>
+					<div class="side-bar-item-dropdown full dd-grid">
+						<section class="specials-section col-6">
+							<header class="specials-header">
+								<h3 class="specials-title">Акции</h3>
+							</header>
+							<ul class="specials-list">
+								<li class="list-item">
+									<a href="#" class="list-item-container gap-0 row gx-10">
+										<div class="col-6">
+											<div class="ratio ratio-16x9">
+												<img src="style/img/articles-new-06905f75-7893-44f0-a398-802a028f8ebe.jpg" />
+											</div>
+										</div>
+										<div class="col-6 item-body">
+											<header class="item-header">
+												<h4 class="item-title">Подарки И Скидки Ко Дню Рождения Itvdn</h4>
+											</header>
+											<p class="para nd-disappear">14 января образовательному проекту ITVDN исполнится 8 лет. Мы проделали большой путь, создавая видео курсы и вспомогательные сервисы по программированию и информационным технологиям и гордимся нашими результатами. Мы благодарны всем, ...</p>
+											<span class="item-link"><span class="item-link-text">Читать подробней</span></span>
+										</div>
+									</a>
+								</li>
+								<li class="list-item">
+									<a href="#" class="list-item-container gap-0 row gx-10">
+										<div class="col-6">
+											<div class="ratio ratio-16x9">
+												<img src="style/img/555b453c-3fd8-43f0-9572-343a2b8766e3-cover.jpg" />
+											</div>
+										</div>
+										<div class="col-6 item-body">
+											<header class="item-header">
+												<h4 class="item-title">Социальный Проект Itvdn</h4>
+											</header>
+											<p class="para nd-disappear">Мы предоставляем возможность пройти видео обучение бесплатно людям, нуждающимся в нашей помощи (люди с ограниченными возможностями, сироты, дети из многодетных семей). Под бесплатным обучением подразумевается открытие доступа к просмотру выбраного ...</p>
+											<span class="item-link"><span class="item-link-text">Читать подробней</span></span>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<a href="shares.html" class="button framed-button button-medium white dd-self-s">Все Акции</a>
+						</section>
+						<section class="specials-section col-6">
+							<header class="specials-header">
+								<h3 class="specials-title">Новости</h3>
+							</header>
+							<ul class="specials-list">
+								<li class="list-item">
+									<a href="#" class="list-item-container gap-0 row gx-10">
+										<div class="col-6">
+											<div class="ratio ratio-16x9">
+												<img src="style/img/articles-new-c202e5f9-0f5d-425f-afb6-764423af43ac.jpg" />
+											</div>
+										</div>
+										<div class="col-6 item-body">
+											<header class="item-header">
+												<h4 class="item-title">Новый Видео Курс - Entity Framework Core Базовый</h4>
+											</header>
+											<p class="para nd-disappear">Дорогие друзья, на ITVDN опубликован новый видео курс, посвященный изучению Entity Framework Core - открытого кроссплатформенного фреймворка от компании Microsoft для организации работы с данными в .NET приложениях. ...</p>
+											<span class="item-link"><span class="item-link-text">Читать подробней</span></span>
+										</div>
+									</a>
+								</li>
+								<li class="list-item">
+									<a href="#" class="list-item-container gap-0 row gx-10">
+										<div class="col-6">
+											<div class="ratio ratio-16x9">
+												<img src="style/img/articles-new-5b37f4da-dae0-466a-a2d0-68e61fa51aee.png" />
+											</div>
+										</div>
+										<div class="col-6 item-body">
+											<header class="item-header">
+												<h4 class="item-title">Новый Видео Курс - Создание Веб-Приложений На Php</h4>
+											</header>
+											<p class="para nd-disappear">Дорогие друзья, на ITVDN опубликован новый видео курс, посвященный изучению веб-разработки на PHP. ...</p>
+											<span class="item-link"><span class="item-link-text">Читать подробней</span></span>
+										</div>
+									</a>
+								</li>
+								<li class="list-item">
+									<a href="#" class="list-item-container gap-0 row gx-10">
+										<div class="col-6">
+											<div class="ratio ratio-16x9">
+												<img src="style/img/articles-new-da077f54-ba84-464f-a7f7-652b17006d06.png" />
+											</div>
+										</div>
+										<div class="col-6 item-body">
+											<header class="item-header">
+												<h4 class="item-title">Games Gathering 2021 Kiev</h4>
+											</header>
+											<p class="para nd-disappear">Долгожданный Games Gathering 2021 Kiev приближается вместе с зимой! ...</p>
+											<span class="item-link"><span class="item-link-text">Читать подробней</span></span>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<a href="news.html" class="button framed-button button-medium white dd-self-s">Все Новости</a>
+						</section>
+					</div>
+				</li>
+				<li class="list-item">
+					<a href="support.html" class="nav-link dropdown-item fal fa-envelope"><span class="nav-link__text">Служба поддержки</span></a>
+					<div class="side-bar-item-dropdown contact-us positioner">
+						<ul class="nav-list sub-menu">
+							<li class="list-item">
+								<a href="#" class="nav-link far fa-film-alt dropdown-item">Каталог видеокурсов</a>
+								<section class="sub-menu-dropdown dd-grid dd-column dd-v-gap-2">
+									<section class="row d-flex flex-column g-5">
+										<header class="col">
+											<h3 class="sub-menu-title">Ваш Запрос В Службу Поддержки</h3>
+										</header>
+										<div class="col">
+											<div class="container-fluid overflow-hidden px-0">
+												<div class="row row-cols-1 row-cols-xxl-2 g-5">
+													<div class="col">
+														<form class="row d-flex flex-column justify-content-between gy-5 gx-0">
+															<textarea class="textarea-classic" rows="1" placeholder="Имя*"></textarea>
+															<textarea class="textarea-classic" rows="1" placeholder="E-mail*"></textarea>
+															<textarea class="textarea-classic" rows="1" placeholder="050 123 4567"></textarea>
+															<textarea class="textarea-classic" rows="5" placeholder="Сообщение*"></textarea>
+															<input type="button" value="Отправить" class="button filled-button button-small orange dd-self-c" />
+														</form>
+													</div>
+													<div class="col">
+														<section class="address">
+															<header class="address__header">
+																<h3 class="sub-menu-title">Свяжитесь С Нами</h3>
+															</header>
+															<div class="address__body">
+																<section class="address__subsection">
+																	<header class="address__subsection__header">
+																		<h4 class="address__subsection__title">Наши Контакты</h4>
+																	</header>
+																	<p class="para">
+																		02660, г.Киев<br />
+																		ул. Евгения Сверстюка 19,<br />
+																		5 этаж<br />
+																		ПН - ПТ 11:00 - 19:00 СБ - ВС выходной
+																	</p>
+																	<p class="para">
+																		Центр обслуживания клиентов<br />
+																		+38 044 344 16 22<br />
+																		+7 499 112 04 82<br />
+																		+44 204 577 00 53
+																	</p>
+																	<p class="para">
+																		Техническая поддержка<br />
+																		+38 044 344 19 20<br />
+																		ПН - ПТ 11:00 - 00:00 СБ 11:00 - 19:00 ВС выходной
+																	</p>
+																	<dl class="line-dl">
+																		<dt class="line-dl__dt line-dl__dt_iconed skype">Skype: </dt>
+																		<dt class="line-dl__dd"><a href="#" class="link orange">support_itvdn</a></dt>
+																		<dt class="line-dl__dt line-dl__dt_iconed telegram">Telegram: </dt>
+																		<dt class="line-dl__dd"><a href="#" class="link orange">@itvdn_support</a></dt>
+																		<dt class="line-dl__dt line-dl__dt_iconed mail">Email: </dt>
+																		<dt class="line-dl__dd"><a href="#" class="link orange">support@itvdn.com</a></dt>
+																	</dl>
+																</section>
+																<section class="address__subsection">
+																	<header class="address__subsection__header">
+																		<h4 class="address__subsection__title">Время работы</h4>
+																	</header>
+																	<dl class="line-dl">
+																		<dt class="line-dl__dt">Понедельник - пятница: </dt>
+																		<dt class="line-dl__dd">11:00 - 00:00</dt>
+																		<dt class="line-dl__dt">Суббота:  </dt>
+																		<dt class="line-dl__dd">@11:00 - 19:00</dt>
+																		<dt class="line-dl__dt">Воскресенье: </dt>
+																		<dt class="line-dl__dd">выходной</dt>
+																	</dl>
+																	<i class="icon icon_big fal icon_gray fa-envelope"></i>
+																</section>
+															</div>
+														</section>
+													</div>
+												</div>
+											</div>
+										</div>
+									</section>
+									<section class="dd-grid dd-wrap dd-a-c-start dd-v-gap-2 dd-h-gap-2 dd-gap-2">
+										<header class="dd-col-12">
+											<h3 class="sub-menu-title">Мы на карте</h3>
+										</header>
+										<div class="map"></div>
+									</section>
+								</section>
+							</li>
+							<li class="list-item">
+								<a href="#" class="nav-link far fa-film-alt dropdown-item">Консультация с тренером</a>
+								<section class="sub-menu-dropdown dd-grid dd-column dd-v-gap-2">
+									<section class="container row">
+										<header class="col-12">
+											<h3 class="sub-menu-title">Индивидуальные Консультации</h3>
+										</header>
+										<img class="col-4 nd-disappear" src="style/img/consultation.jpg" />
+										<div class="col-12 col-lg-8">
+											<div class="h-100 d-flex flex-column space-between">
+												<p class="para para_white">Нужна помощь в обучении? Обратитесь к специалисту за индивидуальной консультацией.</p>
+												<p class="para para_white mt-2">Если нужно проверить и прокомментировать выполненные Вами задания, найти и исправить ошибки в Вашем коде или помочь расставить приоритеты при планировании дальнейшего обучения по специальности – обращайтесь к нашим специалистам. Вы получите необходимую помощь и поддержку.</p>
+												<a href="#" class="button framed-button button-medium orange dd-self-e mt-auto">Подробней</a>
+											</div>
+										</div>
+									</section>
+									<section class="dd-grid dd-column dd-v-gap-2">
+										<header>
+											<h3 class="sub-menu-title">Уровень сложности</h3>
+										</header>
+										<ul class="empty-list row">
+											<li class="col-4">
+												<div class="card card_consultation card_gray">
+													<header class="card-header">
+														<h3 class="card-title h6 text_white text-nowrap">BEGINNER <span class="dol-per-hour">10</span></h3>
+													</header>
+													<div class="card-body nd-disappear">
+														<ul class="check-list">
+															<li class="list-item">C# 5.0 Стартовый</li>
+															<li class="list-item">JavaScript Стартовый 2015</li>
+															<li class="list-item">Bootstrap 4</li>
+															<li class="list-item">Django</li>
+															<li class="list-item">... и еще 11 курсов</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li class="col-4">
+												<div class="card card_consultation card_cyan">
+													<header class="card-header">
+														<h3 class="card-title h6 text_white text-nowrap">MIDDLE <span class="dol-per-hour">10</span></h3>
+													</header>
+													<div class="card-body nd-disappear">
+														<ul class="check-list">
+															<li class="list-item">C# базовый (ООП)</li>
+															<li class="list-item">Entity Framework 6</li>
+															<li class="list-item">Android Design Support Library</li>
+															<li class="list-item">Android User Interface</li>
+															<li class="list-item">... и еще 25 курсов</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li class="col-4">
+												<div class="card card_consultation card_orange">
+													<header class="card-header">
+														<h3 class="card-title h6 text_white text-nowrap">ADVANCED <span class="dol-per-hour">20</span></h3>
+													</header>
+													<div class="card-body nd-disappear">
+														<ul class="check-list">
+															<li class="list-item">C# Углубленный</li>
+															<li class="list-item">Шаблоны проектирования</li>
+															<li class="list-item">ASP.NET Core Углубленный</li>
+															<li class="list-item">ASP.NET Core Web API. Практический курс</li>
+															<li class="list-item">... и еще 9 курсов</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+										</ul>
+										<a href="#" class="button filled-button button-medium orange align-self-center">Заказать Консультацию</a>
+									</section>
+								</section>
+							</li>
+							<li class="list-item">
+								<a href="#" class="nav-link far fa-film-alt dropdown-item">FAQ</a>
+								<section class="sub-menu-dropdown dd-grid dd-column dd-v-gap-2">
+									<section class="d-flex flex-column gy-5 row">
+										<header>
+											<h3 class="sub-menu-title">Часто Задаваемые Вопросы</h3>
+										</header>
+										<div class="cross-list-container faq">
+											<ul class="cross-list">
+												<li class="list-item fas fa-graduation-cap">Вопросы по обучению<a href="faq.html" class="cover-link"></a></li>
+												<li class="list-item fas fa-money-check">Вопросы оплаты<a href="faq.html" class="cover-link"></a></li>
+												<li class="list-item fas fa-cog">Технические вопросы<a href="faq.html" class="cover-link"></a></li>
+												<li class="list-item far fa-file-certificate">Документы о прохождении<a href="faq.html" class="cover-link"></a></li>
+											</ul>
+										</div>
+										<div class="d-flex justify-content-center"><a href="faq.html" class="button framed-button button-medium orange">Посмотреть все</a></div>
+									</section>
+								</section>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</nav>
+		<footer class="side-bar-footer">
+			<span class="side-bar-footer-title">Выбери свою
+			<span class="accent-word">IT</span>
+				специальность</span>
+			<a class="button filled-button button-medium orange" href="#">Начать Бесплатно</a>
+			<section class="side-bar-social">
+				<h3 class="social-title">Мы в соцсетях</h3>
+				<ul class="social-list">
+					<li class="list-item"><a class="social-link fab fa-vk" href="https://vk.com/itvdn"></a></li>
+					<li class="list-item"><a class="social-link fab fa-facebook-f" href="https://www.facebook.com/ITVDN.EDU"></a></li>
+					<li class="list-item"><a class="social-link fab fa-youtube" href="https://www.youtube.com/user/CBSystematicsTV"></a></li>
+					<li class="list-item"><a class="social-link fab fa-telegram-plane" href="https://t.me/itvdn1"></a></li>
+					<li class="list-item"><a class="social-link fab fa-linkedin-in" href="https://www.linkedin.com/company/itvdn/"></a></li>
+				</ul>
+			</section>
+			<div class="search far fa-search"></div>
+		</footer>
+	</div>
+</aside>
+
+
+<main class="main">
+<header class="navbar">
+	<div class="navbar-left dd-h-gap-1">
+		<p class="motto">
+			Выбери свою
+		<span class="it">IT</span>
+			Специальность
+		</p>
+		<div class="button button-medium filled-button orange">Начать Бесплатно</div>
+	</div>
+	<div class="navbar-right">
+		<div class="search far fa-search"></div>
+		<div class="sign-in far fa-user-circle">Авторизация</div>
+	</div>
+</header>
+
+<section class="dd-grid dd-column dd-v-gap-4">
+	<header class="page-banner dd-column dd-v-gap-1" style="background-image: url(	https://itvdn.com/Content/img/specialities/index/background-graphika.png);">
+		<div class="dd-grid dd-h-gap-1 dd-grow-1">
+			<div class="dd-col-6">
+				<ul class="breadcrump-list">
+					<li class="breadcrump-list__item"><a class="breadcrump-list__link">Главная</a></li>
+					<li class="breadcrump-list__item">IT специальности</li>
+				</ul>
+				<h2 class="h1_superheader">Выбирай <br />
+				<span class="text_orange">специальность</span><br />
+				и учись</h2>
+			</div>
+			<img class="dd-col-6 dd-self-e" src="https://itvdn.com/Content/img/specialities/index/header-illustration.png" alt="image">
+		</div>
+		<div class="dd-grid dd-column dd-v-gap-1 dd-grow-0 dd-self-c dd-items-center">
+			<p class="h4 weight-500">Все специальности смотри ниже</p>
+			<a href="#" class="pointer-link-2 far fa-chevron-double-down"></a>
+		</div>
+	</header>
+	<ul class="holder_double empty-list dd-grid dd-wrap dd-h-gap-0-5 dd-v-gap-0-5 dd-gap-0-5 td-holder_small">
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grid dd-column dd-v-gap-0-5">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c dd-m-top">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="thin-border-card dd-col-3 dd-ratio-3 td-col-4 td-ratio-4 positioner">
+			<div class="flip-effect-wrapper cover-link specialities-card">
+				<div class="flip-effect-card">
+					<div class="flip-effect-face dd-grid dd-column dd-s-b">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<img class="card-img" src="https://itvdn.blob.core.windows.net/specialities-covers/html-coder-7dd54098-2cee-426e-b953-416363f82e22.png" alt="Верстальщик сайтов">
+						<p class="para">42 курса / 7 месяцев</p>
+					</div>
+					<div class="flip-effect-back dd-grid dd-column dd-v-gap-1">
+						<h4 class="card_course__title">Верстка сайтов</h4>
+						<ul class="dot-list dot-list_orange dd-grow-1 dd-grid dd-column dd-s-b">
+							<li class="dot-list__item para">Доступ к 42 видеокурсам ITVDN</li>
+							<li class="dot-list__item para">Время обучения: 7 месяцев</li>
+							<li class="dot-list__item para">Учебные материалы</li>
+							<li class="dot-list__item para">Тестирование по курсам (15 тестов)</li>
+							<li class="dot-list__item para">Консультация с тренером (60 мин)</li>
+							<li class="dot-list__item para">Диплом по специальности</li>
+							<li class="dot-list__item para">Доступ к практикуму навыков</li>
+						</ul>
+						<a href="#" class="filled-button button-small orange dd-self-c">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</li>
+	</ul>
+	<section class="dd-grid dd-column dd-v-gap-4 dd-items-center">
+		<header class="dd-col-12">
+			<h3 class="h2-alt h2-alt_small holder pre"><span class="text_orange">Кому подойдут</span> наши курсы</h3>
+		</header>
+		<div class="dd-grid dd-h-gap-10 dd-gap-10 dd-col-11 td-h-gap-1 td-gap-1">
+			<div class="dd-col-6 dd-grid dd-gap-2 dd-h-gap-2 td-column td-v-gap-1">
+				<img class="dd-col-5 td-col-12" src="https://itvdn.com/Content/img/specialities/index/beginners.png" alt="image">
+				<div class="dd-col-7 dd-grid dd-column dd-v-gap-0-5 td-col-12" style="margin-top: 5%">
+					<h4 class="h5-alt">Новичкам — обучение с нуля</h4>
+					<p class="para para_med-height">Программы обучения выстроены таким образом, что начать программировать может даже тот, кто никогда прежде с программированием не сталкивался. Наши учебные материалы помогут вам сделать уверенный старт и достичь желаемого успеха в IT.</p>
+				</div>
+			</div>
+			<div class="dd-col-6 dd-grid dd-gap-2 dd-h-gap-2 td-column td-v-gap-1">
+				<img class="dd-col-5 td-col-12" src="	https://itvdn.com/Content/img/specialities/index/expert.png" alt="image">
+				<div class="dd-col-7 dd-grid dd-column dd-v-gap-0-5 td-col-12" style="margin-top: 5%">
+					<h4 class="h5-alt">IT специалистам — новые знания</h4>
+					<p class="para para_med-height">Видео курсы ITVDN позволят вам изучить новые технологии, углубить и систематизировать знания или сменить стек технологий, чтобы повысить свою квалификацию и ценность в глазах работодателя.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="dd-grid dd-column dd-v-gap-4">
+		<header>
+			<h3 class="h2-alt h2-alt_small holder pre"><span class="text_orange">Как выбрать</span> специальность</h3>
+		</header>
+		<ul class="chain-steps holder td-holder_small">
+			<li class="chain-steps__item">
+				<header class="chain-steps__header">
+					<span class="chain-steps__number"></span>
+					<h4 class="chain-steps__title">Что сейчас востребовано</h4>
+				</header>
+				<p class="para para_med-height">Проанализируйте рынок IT: просмотрите аналитику вакансий, изучите спрос и выберите 2-3 IT-профессии, которые вам больше всего нравятся. Если у вас есть друзья-программисты, поинтересуйтесь их мнением о выбранных направлениях.</p>
+			</li>
+			<li class="chain-steps__item">
+				<header class="chain-steps__header">
+					<span class="chain-steps__number"></span>
+					<h4 class="chain-steps__title">Изучите мнение экспертов</h4>
+				</header>
+				<p class="para para_med-height">Изучите информацию на странице выбранных специальностей - посмотрите Карту специальности, вебинары для новичков — так вы узнаете, что нужно изучить и сколько на это нужно времени, а также какие ресурсы будут доступны для вас на ITVDN. Выберите одну специальность, которая вам подходит.</p>
+			</li>
+			<li class="chain-steps__item">
+				<header class="chain-steps__header">
+					<span class="chain-steps__number"></span>
+					<h4 class="chain-steps__title">Спланируйте обучение</h4>
+				</header>
+				<p class="para para_med-height">Составьте план обучения: определите список необходимых и дополнительных курсов и организуйте ваш ежедневный график так, чтобы в нём было достаточно времени для обучения и практики. Затем приступайте к освоению специальности на ITVDN!</p>
+			</li>
+		</ul>
+	</section>
+	<section class="dd-grid dd-column dd-v-gap-4">
+		<header>
+			<h3 class="h2-alt h2-alt_small holder pre"><span class="text_orange">Вопросы</span> и ответы</h3>
+		</header>
+		<dl class="faq-dl faq-dl_standart dd-v-gap-2 holder_small">
+			<dt class="faq-dl_dt">Как выбрать it-специальность?</dt>
+			<dd class="faq-dl_dd para_alt arial">
+				<ol class="ol_original dd-grid dd-column dd-v-gap-1">
+					<li>
+						Выбор IT-специальности — это первый и в то же время ключевой шаг, который обозначает старт вашего пути в айти. Для начала ознакомьтесь со всеми направлениями IT-разработки, которые востребованы на сегодняшний день. Среди них:
+						<ul class="ul_outside ul_original">
+							<li>веб-разработка;</li>
+							<li>разработка настольных и мобильных приложений;</li>
+							<li>разработка игр;</li>
+							<li>тестирование программного обеспечения;</li>
+							<li>информационная безопасность;</li>
+							<li>работа с большими данными (Data Science, Data Engineering, Data Analysis);</li>
+							<li>разработка микроконтроллеров;</li>
+							<li>системное администрирование;</li>
+							<li>управленческие направления: проджект менеджмент (Project Management), продакт менеджмент (Product Management);</li>
+							<li>UI/UX дизайн (дизайн пользовательских интерфейсов);</li>
+							<li>другие направления.</li>
+						</ul>
+						<p>При этом ориентируйтесь на то, какой интерес вызывает у Вас та или иная IT-сфера. Не гонитесь за деньгами; в IT любой специалист будет получать хорошую ЗП, если он имеет достаточный опыт, знания и навыки по своей специальности.</p>
+					</li>
+					<li>
+						<b>Выберите 2-3 специальности</b>, которые Вам больше всего понравились, <b>и углубитесь в них:</b>
+						<ul class="ul_outside ul_original">
+							<li>изучите статьи, посвящённые выбранным профессиям;</li>
+							<li>просмотрите вебинары из серии “Как стать разработчиком…”;</li>
+							<li>узнайте мнение Ваших друзей-программистов;</li>
+							<li>ознакомьтесь со списком языков программирования и технологий, которые используют IT-специалисты по выбранным направлениям.</li>
+						</ul>
+						<p>Полезные статьи Вы сможете найти в <a href="#" class="original-link">Блоге ITVDN</a>, а вебинары в <a href="#" class="original-link">одноимённом разделе</a>. Рекомендуем ознакомиться со следующим вебинаром от ITVDN: <a href="#" class="original-link">Как стать программистом?</a></p>
+					</li>
+					<li><b>Отсейте менее привлекательные для Вас IT-специальности и выберите одну</b> — ту самую, которая лучше всего соответствует Вашим запросам и вызывает у Вас искреннюю заинтересованность.</li>
+				</ol>
+			</dd>
+			<dt class="faq-dl_dt">Какие it-специальности самые популярные?</dt>
+			<dd class="faq-dl_dd para_alt arial">
+				<article class="dd-grid dd-column dd-v-gap-1">
+					<section>
+						<header>
+							<p>Согласно опросу <a href="#" class="original-link">Stack Overflow Developer Survey 2021</a> (более 80 тысяч респондентов со всего мира), самым популярным направлением на данный момент является веб-разработка, которая делится на три типа:</p>
+						</header>
+						<ul class="ul_original ul_outside">
+							<li>разработка клиентской стороны веб-приложений (FrontEnd, “фронтенд”) — подразумевает создание всего того, что Вы видите и с чем Вы напрямую можете взаимодействовать в Вашем браузере;</li>
+							<li>разработка серверной стороны (BackEnd, “бэкенд”) — ориентируется на создание функционала, который находится “под капотом” веб-приложения, то есть, на сервере: обработка и оперирование пользовательскими данными, их хранение и выдача из базы данных и т. д.;</li>
+							<li>разработка как клиентской, так и серверной стороны веб-приложений (Full Stack, “фулл стек”) — сочетает в себе и BackEnd, и FrontEnd разработку.</li>
+						</ul>
+					</section>
+					<p>Чтобы узнать подробнее о том, что из себя представляет фронтенд и чем нужно овладеть, чтобы стать FrontEnd разработчиком, смотрите в нашем бесплатном вебинаре <a href="#" class="original-link">Карта специальности FrontEnd разработчик.</a></p>
+					<section>
+						<header>
+							<p>BackEnd разработка может вестись при помощи большого количества различных языков программирования, однако наиболее популярные из них C#, Java и Python. Познакомиться со спецификой бэкенд разработки при помощи каждого из этих языков Вам помогут следующие вебинары от практикующих разработчиков:</p>
+						</header>
+						<ul class="ul_original ul_outside">
+							<li><a href="#" class="original-link">Карта специальности .NET разработчик</a></li>
+							<li><a href="#" class="original-link">Карта специальности Python разработчик</a></li>
+							<li><a href="#" class="original-link">Карта специальности Java разработчик</a></li>
+						</ul>
+					</section>
+					<p>С Full Stack разработкой можно разобраться, прочитав нашу статью “<a href="#" class="original-link">Кто такой Full Stack разработчик</a>” и просмотрев вебинар “<a href="#" class="original-link">Как стать Full Stack разработчиком</a>”.</p>
+				</article>
+			</dd>
+			<dt class="faq-dl_dt">Как понять, что выбранная it-специальность мне подходит?</dt>
+			<dd class="faq-dl_dd para_alt arial">
+				<article class="dd-grid dd-column dd-v-gap-1">
+					<section>
+						<header>
+							<p>Главные ориентиры при выборе IT-специальности:</p>
+						</header>
+						<ol class="list-outside list-indent">
+							<li>Вас должны интересовать задачи, которые решают специалисты выбранного направления.</li>
+							<li>Вам должно быть интересно заниматься решением этих задач.</li>
+						</ol>
+						<p>Чтобы выяснить для себя эти два важных момента, разыщите как можно больше информации об интересующей Вас IT-специальности посредством статей, вебинаров, подкастов, ютуб-роликов и т. д. </p>
+					</section>
+					<p>Небольшой, но важный совет на будущее. Изучение программирования является достаточно трудоёмкой задачей, которая требует больших инвестиций Вашего времени и усилий. В связи с этим почти каждый учащийся рано или поздно сталкивается со сложностями в обучении и задаётся вопросом “А действительно ли эта IT-специальность мне подходит? Может, мне не хватает таланта, потому и учёба так тяжело дается?”. </p>
+					<p>В этот момент главное не поддаваться на провокации и не забрасывать обучение. Абсолютно любая специальность имеет свои острые углы, но они не должны становиться серьезной преградой для Вас. Систематические теоретические и практические занятия программированием — вот ключ к Вашему успешному будущему в IT.</p>
+				</article>
+			</dd>
+			<dt class="faq-dl_dt">Какой язык программирования самый популярный?</dt>
+			<dd class="faq-dl_dd para_alt arial">
+				<article>
+					<p>Уже многие годы наиболее популярными языками программирования считаются JavaScript, Python, C#, Java и C/C++.</p>
+					<p>Согласно индексу TIOBE, который формирует рейтинг путём подсчёта кол-ва поисковых запросов, состоянием на январь 2022 года самым популярным является язык программирования Python.</p>
+					<p>Ежегодный опрос Stack Overflow Developer Survey 2021, который опирается на ответы более 80 000 респондентов со всего мира, ставит на первое место JavaScript.</p>
+					<p>Согласно индексу PYPL, учитывающему Google-запросы по нахождению учебных руководств по языкам программирования, в январе 2022 года наиболее популярен язык Python.</p>
+					<p>Аналитики из RedMonk в своем полугодовом исследовании отдают первенство языку JavaScript, используя статистику репозиториев на GitHub и обсуждения языков в Stack Overflow. </p>
+					<p>И Python, и JavaScript возглавляют ТОПы благодаря двум факторам: </p>
+					<ul class="list-indent ul_original list-outside">
+						<li>это одни из самых легких языков программирования;</li>
+						<li>оба языка имеют широкий спектр применения, вследствие чего пользуются большим спросом.</li>
+					</ul>
+				</article>
+			</dd>
+			<dt class="faq-dl_dt">Какой язык программирования лучше всего изучать новичку?</dt>
+			<dd class="faq-dl_dd para_alt arial">
+				<article class="dd-grid dd-column dd-v-gap-1">
+					<section>
+						<p>В данном вопросе мнения расходятся.</p>
+						<p>Одна точка зрения гласит, что начинать стоит с классических языков программирования, например Pascal, Delphi, C, Java, чтобы выработать алгоритмическое мышление и правильные программистские привычки в целом. Лишь затем стоит заниматься изучением того языка, который лежит в основе вашей будущей специальности.</p>
+					</section>
+					<section>
+						<p>Другая точка зрения предусматривает упрощенный вариант: выбираете один из самых лёгких в изучении язык — Python или JavaScript — и стартуете в программировании, чтобы как можно скорее приступить к решению прикладных задач, ну а обильная практика поможет освоить необходимую программистскую науку.</p>
+						<p>И Python, и JavaScript возглавляют ТОПы благодаря двум факторам: </p>
+					</section>
+					<p>Мы советуем Вам <b>выбирать не язык, а прежде всего специальность</b>, которая будет Вам по душе. Язык программирования — всего лишь инструмент. Главное, чтобы Вы были довольны выбранной профессией и получали удовольствие от решения рабочих задач, поэтому вначале позвольте Вашему сердцу выбрать IT-специальность, а затем уже выбирайте язык, способный решить поставленные перед Вами задания. </p>
+				</article>
+			</dd>
+			<dt class="faq-dl_dt">В каких it специальностях не надо изучать программирование?</dt>
+			<dd class="faq-dl_dd para_alt arial">
+				<article class="list-indent">
+					<p>
+						IT — это очень объемная отрасль, место в которой может найти себе практически любой желающий даже без знания программирования. Список таких специальностей: 
+					</p>
+					<ul class="list-indent ul_original list-outside">
+						<li>HR-менеджер;</li>
+						<li>IT-рекрутёр;</li>
+						<li>маркетолог, PR-менеджер, контент-менеджер, копирайтер, SEO-специалист, PPC-специалист;</li>
+						<li>ивент-менеджер;</li>
+						<li>менеджер по продажам (sales-менеджер);</li>
+						<li>Account Manager, специалист по лидогенерации (по развитию бизнеса);</li>
+						<li>бизнес-аналитик;</li>
+						<li>Product Manager, Project Manager;</li>
+						<li>графический-дизайнер, веб-дизайнер, UI дизайнер, UX дизайнер, UI/UX дизайнер;</li>
+						<li>технический писатель;</li>
+						<li>сценарист игр;</li>
+						<li>разработчик 3D моделей;</li>
+						<li>3D-аниматор;</li>
+						<li>мануальный тестировщик;</li>
+						<li>служба поддержки: Help Desk Technician, Service Desk Technician;</li>
+						<li>юрист;</li>
+						<li>другие менее популярные специальности.</li>
+					</ul>
+				</article>
+			</dd>
+			<dt class="faq-dl_dt">В каких it специальностях не надо изучать программирование?</dt>
+			<dd class="faq-dl_dd para_alt arial">
+				<article class="dd-grid dd-column dd-v-gap-1">
+					<p>Да, конечно! Большинство популярных IT-специальностей не требуют глубоких познаний математики, физики и других технических дисциплин. Стандартный набор школьных знаний будет вполне достаточным. Исключение — Data Science, машинное обучение, робототехника и прочие смежные направления.  </p>
+					<section>
+						<header>
+							<p>Более того, у Вас, как у гуманитария, может быть преимущество перед “технарями” в плане хорошей прокачки нетехнических навыков, например: </p>
+						</header>
+						<ul class="list-indent ul_original list-outside">
+							<li>Сильные коммуникативные навыки на пару с развитым эмоциональным интеллектом помогут найти общий язык с коллективом, позволят быстрее и эффективнее перенимать опыт коллег, а также сделают максимально комфортным Ваше дальнейшее взаимодействие с членами команды. Также этот навык может сделать Вас ценным сотрудником во время переговоров с заказчиками. </li>
+							<li>Творческое мышление поможет отыскивать нестандартные решения задач.</li>
+							<li>Отсутствие страха перед публичными выступлениями откроет Вам дверь ко многим конференциям и IT-ивентам, выступая на которых Вы получите новый опыт, знакомства, прокачаете свои навыки и прибавите веса своей персоне в глазах других разработчиков и работодателей.</li>
+						</ul>
+					</section>
+				</article>
+			</dd>
+		</dl>
+	</section>
+</section>
+
+<footer class="page-footer">
+	<ul class="page-footer-info">
+		<li>
+			<h5 class="page-footer-info__column-title">Обучение</h5>
+			<ul class="empty-list">
+				<li><a href="#" class="standart-link">Консультация с тренером</a></li>
+				<li><a href="#" class="standart-link">Каталог курсов</a></li>
+				<li><a href="#" class="standart-link">IT специальности</a></li>
+				<li><a href="#" class="standart-link">Планы подписок</a></li>
+				<li><a href="#" class="standart-link">Подарочные сертификаты</a></li>
+				<li><a href="#" class="standart-link">Live-Online обучение</a></li>
+				<li><a href="#" class="standart-link">Видео канал</a></li>
+				<li><a href="#" class="standart-link">Статьи</a></li>
+				<li><a href="#" class="standart-link">Форум</a></li>
+			</ul>
+		</li>
+		<li>
+			<h5 class="page-footer-info__column-title">Популярное</h5>
+			<ul class="empty-list">
+				<li><a href="#" class="standart-link">С чего начать обучение</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки Python</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки C#</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки ASP.NET Core</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки Java</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки HTML&CSS</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки JavaScript</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки Angular</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки React</a></li>
+			</ul>
+		</li>
+		<li>
+			<h5 class="page-footer-info__column-title">Сотрудничество</h5>
+			<ul class="empty-list">
+				<li><a href="#" class="standart-link">Стань автором</a></li>
+				<li><a href="#" class="standart-link">Для IT компаний</a></li>
+			</ul>
+		</li>
+		<li>
+			<h5 class="page-footer-info__column-title">О Проекте</h5>
+			<ul class="empty-list">
+				<li><a href="#" class="standart-link">О проекте</a></li>
+				<li><a href="#" class="standart-link">Контакты</a></li>
+				<li><a href="#" class="standart-link">FAQ</a></li>
+				<li><a href="#" class="standart-link">Архив рассылок</a></li>
+				<li><a href="#" class="standart-link">Авторы</a></li>
+				<li><a href="#" class="standart-link">Социальный проект</a></li>
+			</ul>
+		</li>
+	</ul>
+	<div class="page-footer-mailing">
+		<h4 class="h4 mailing">Подпишись На Рассылку</h4>
+		<p class="para">Будь в курсе новых акций ITVDN, видео уроков и вебинаров</p>
+		<div class="mailing-input"></div>
+	</div>
+	<div class="footer-down">
+		<ul class="empty-list dd-grid dd-h-gap-1">
+			<li><a href="#" class="standart-link">Условия пользования</a></li>
+			<li><a href="#" class="standart-link">Заявление о конфиденциальности</a></li>
+			<li><a href="#" class="standart-link">Договор публичной оферты</a></li>
+			<li><a href="#" class="standart-link">Карта сайта</a></li>
+		</ul>
+		<span class="all-rights">©2022 ITVDN, все права защищены</span>
+	</div>
+</footer>
+</main>
+</body>
+</html>

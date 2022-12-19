@@ -1,0 +1,750 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(fonts/awesome.css);
+
+
+.webinar-name {
+	font-size: 21px;
+	font-weight: 700;
+	color: var(--black);
+}
+
+.webinar-name-small {
+	font-size: 18px;
+	font-weight: bold;
+	color: var(--black);
+}
+
+.title-sub {
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.title-sub-orange {
+	font-size: 49px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #f3520c;
+}
+
+.title-sub-right {
+	font-size: 33px;
+	font-weight: 300;
+	color: #000;
+}
+
+.para-window {
+	font-size: 14px;
+	line-height: 1.7em;
+}
+
+.para, .text {
+	font-size: 14px;
+}
+
+	.para.para_white {
+		color: var(--white)
+	}
+
+	.para.para_black {
+		color: var(--black)
+	}
+
+.para_med-height {
+	line-height: 140%;
+}
+
+.para_alt {
+	font-size: 11pt;
+	line-height: 1.38em;
+}
+
+.mini-text {
+	font-size: 13px;
+}
+
+.para_mini {
+	font-size: 12px;
+}
+
+.small-text {
+	font-size: 11px;
+}
+
+.para_mini_title {
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-style: normal;
+}
+
+	.icon.icon_gray {
+		color: var(--gray);
+	}
+
+	.icon.icon_big {
+		width: 3rem;
+		height: 3rem;
+		font-size: 3rem;
+		line-height: 3rem;
+		text-align: center;
+	}
+
+	.icon.icon_small {
+		width: 1.25rem;
+		height: 1.25rem;
+		font-size: 1.25rem;
+		text-align: center;
+	}
+
+
+/*Titles*/
+
+.main-title {
+	font-size: 135px;
+	font-weight: 600;
+	line-height: 0.95em;
+	text-transform: uppercase;
+}
+
+.main-title_mini {
+	font-size: 110px;
+	font-weight: 600;
+	line-height: 0.95em;
+	text-transform: uppercase;
+}
+
+.main-title_big {
+	font-size: 157px;
+	font-weight: 600;
+	line-height: 0.95em;
+	text-transform: uppercase;
+}
+
+.h1 {
+	padding: 5px 20px;
+	font-size: 49px;
+	font-weight: 500;
+	text-transform: uppercase;
+	background-color: #f3520c;
+	color: #fff;
+}
+
+.h1_monitor {
+	font-size: 75px;
+	font-weight: normal;
+	color: #333;
+}
+
+.h1_superheader {
+	font-family: "GilroyExtraBold";
+	font-weight: 800;
+	font-size: 80px;
+	text-transform: uppercase;
+	color: #303d46;
+}
+
+.h2 {
+	display: inline-block;
+	padding: 3px 20px;
+	font-size: 35px;
+	font-weight: 500;
+	text-transform: uppercase;
+	background-color: var(--orange);
+	color: #fff;
+}
+
+	.h2.cyan {
+		background-color: var(--cyan);
+	}
+
+.h2-light {
+	font-weight: 300;
+	font-size: 23px;
+}
+
+.h2-alt {
+	height: 105px;
+	display: flex;
+	align-items: center;
+	font-size: 21px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--black);
+	box-shadow: inset 0.5rem 0 0 var(--orange);
+}
+
+.h2-alt_small {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #303d46;
+}
+
+.h2-big {
+	font-size: 45px;
+	text-transform: uppercase;
+	color: #303d46;
+}
+
+.h2-big_alt {
+	font-size: 47px;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #767676;
+}
+
+.super-header-h2 {
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: var(--white);
+}
+
+.h3 {
+	font-size: 30px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #1d2931;
+}
+
+.h3-alt {
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--black);
+}
+
+.h3-alt-big {
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.h4 {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.h4-alt {
+	font-size: 17px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.h4-flat {
+	padding: 3px 15px;
+	font-size: 19.2px;
+	font-weight: 500;
+	text-transform: uppercase;
+	background-color: #ef5322;
+	color: #fff;
+}
+
+.h5 {
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #222;
+	cursor: pointer;
+}
+
+.h5-alt {
+	font-size: 16px;
+	font-weight: 600;
+	color: #111;
+}
+
+.h6 {
+	text-transform: uppercase;
+	font-family: var(--primary-font);
+	font-size: 15px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.h6-alt {
+	font-size: 14px;
+	font-weight: 600;
+	color: #111;
+}
+
+.h6-light {
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.super-title {
+	font-size: 95px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.diploma-title {
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #aaa;
+}
+
+/*Font families*/
+.arial {
+	font-family: Arial;
+}
+
+/*Line height*/
+
+.line-18px {
+	line-height: 18px;
+}
+
+.line-1rem {
+	line-height: 1rem;
+}
+
+/*Money*/
+
+.dollar {
+	font-size: 16px;
+	color: #bfbfbf;
+}
+
+	.dollar:after, .dollar-sign:after {
+		content: " $"
+	}
+
+.dol-per-hour {
+}
+
+	.dol-per-hour:before {
+		content: '$';
+	}
+
+	.dol-per-hour:after {
+		content: ' / hour';
+		text-transform: lowercase
+	}
+
+.usd:after {
+	content: " USD"
+}
+
+.sub-price_big {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.sub-price_orange {
+	color: var(--orange)
+}
+
+/*Font sizes*/
+.fs-16 {
+	font-size: 16px;
+}
+
+.fs-27 {
+	font-size: 27px;
+}
+
+.fs-48 {
+	font-size: 48px;
+}
+
+.fs-56 {
+	font-size: 56px;
+}
+
+/*Font weights*/
+
+.weight-100 {
+	font-weight: 100;
+}
+
+.weight-300 {
+	font-weight: 300;
+}
+
+.weight-400 {
+	font-weight: 400;
+}
+
+.weight-500 {
+	font-weight: 500;
+}
+
+.weight-700 {
+	font-weight: 700;
+}
+
+/*Text indents*/
+
+.standart-indent {
+	text-indent: 15px;
+}
+
+/*Modifications*/
+
+.vertical-rl {
+	writing-mode: vertical-rl
+}
+
+.vertical-rl-reverse {
+	writing-mode: vertical-rl;
+	transform: rotate(180deg)
+}
+
+.pre-line {
+	white-space: pre-line;
+}
+
+.pre {
+	white-space: pre;
+}
+
+.text-nowrap {
+	white-space: nowrap;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.ta-left {
+	text-align: left;
+}
+
+.ta-center {
+	text-align: center;
+}
+
+.ta-justify {
+	text-align: justify;
+}
+
+.ta-justify-full {
+	text-align: justify;
+	text-align-last: justify
+}
+
+.ta-right {
+	text-align: right;
+}
+
+.text_white {
+	color: var(--white)
+}
+
+.text_orange {
+	color: var(--orange)
+}
+
+.text_special_bold {
+	font-weight: 500;
+	color: #555;
+}
+
+.text_special_superbold {
+	font-weight: 700;
+	color: #555;
+}
+
+/*Highlights*/
+
+.highlight-white-back {
+	padding: 1rem;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.highlight-curved {
+	display: inline-block;
+	text-transform: uppercase;
+	background-color: red;
+	color: var(--white);
+}
+
+.highlight-curved_big {
+	padding: 0 17px;
+	border-radius: 37px;
+	font-size: 72px;
+}
+
+.highlight-curved_giant {
+	padding: 0 1rem;
+	border-radius: 1rem;
+	font-size: 105px;
+}
+
+.highlight-gradient-1 {
+	background: linear-gradient(#303d46,#f3520d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.highlight-gradient-2 {
+	background: linear-gradient(var(--pure-gray),#f3520d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.highlight-gradient-3 {
+	background: linear-gradient(#fff,#f3520d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.highlight-gradient-4 {
+	background: linear-gradient(to top, #303d46,#f3520d);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/*Colors*/
+
+.gray-5 {
+	color: #555;
+}
+
+/*Setting font*/
+
+@font-face {
+	font-family: "GilroyExtraBold";
+	src: url("fonts/ofont.ru_Gilroy.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+/*Typography adaptive*/
+@media only screen and (min-width: 901px) and (max-width: 1680px) {
+
+	.main-title {
+		font-size: 3rem;
+	}
+
+	.main-title_big {
+		font-size: 5rem;
+	}
+
+	.super-title {
+		font-size: 3rem;
+	}
+
+	.h1_superheader {
+		font-size: 1.5rem;
+	}
+
+	.h1_monitor {
+		font-size: 2rem;
+	}
+
+	.h2 {
+		font-size: 1rem;
+	}
+
+	.h2-big {
+		font-size: 1.5rem;
+	}
+
+	.h2-big_alt {
+		font-size: 2.25rem;
+	}
+
+	.main-title_mini {
+		font-size: 3rem;
+	}
+
+	.webinar-name {
+		font-size: 0.8rem;
+	}
+
+	.webinar-name-small {
+		font-size: 0.7rem;
+	}
+
+	.nd-text-38px {
+		font-size: 38px;
+	}
+
+	.nd-text-30px {
+		font-size: 30px;
+	}
+
+	.nd-text-18px {
+		font-size: 18px;
+	}
+
+	.nd-text-16px {
+		font-size: 16px;
+	}
+
+	.nd-para {
+		font-size: 14px;
+	}
+
+	.nd-para_med-height {
+		line-height: 140%;
+	}
+
+	.nd-para_alt {
+		font-size: 11pt;
+		line-height: 1.38em;
+	}
+
+	.nd-mini-text {
+		font-size: 13px;
+	}
+
+	.nd-para_mini {
+		font-size: 12px;
+	}
+
+	.nd-small-text {
+		font-size: 11px;
+	}
+
+	.nd-text-10px {
+		font-size: 10px;
+	}
+
+	/*Highlights*/
+
+	.highlight-curved_giant {
+		font-size: 3.5rem;
+	}
+
+	.highlight-curved_big {
+		padding: 0 0.3rem;
+		font-size: 1.5rem;
+	}
+
+	/*Elements*/
+
+	.diploma-title {
+		font-size: 1.5rem;
+	}
+}
+
+/*Typography adaptive*/
+@media only screen and (min-width: 721px) and (max-width: 900px) {
+
+	.main-title {
+		font-size: 3rem;
+	}
+
+	.main-title_big {
+		font-size: 5rem;
+	}
+
+	.super-title {
+		font-size: 3rem;
+	}
+
+	.h1, .title-sub-orange {
+		font-size: 1.2rem;
+	}
+
+	.title-sub-right {
+		font-size: 0.75rem
+	}
+
+	.h1_superheader {
+		font-size: 1.5rem;
+	}
+
+	.h1_monitor {
+		font-size: 2rem;
+	}
+
+	.h2 {
+		font-size: 1rem;
+	}
+
+	.h2-big {
+		font-size: 1.5rem;
+	}
+
+	.h2-big_alt {
+		font-size: 2.25rem;
+	}
+
+	.main-title_mini {
+		font-size: 3rem;
+	}
+
+	.webinar-name {
+		font-size: 0.8rem;
+	}
+
+	.webinar-name-small {
+		font-size: 0.7rem;
+	}
+
+	.td-text-38px {
+		font-size: 38px;
+	}
+
+	.td-text-30px {
+		font-size: 30px;
+	}
+
+	.td-text-18px {
+		font-size: 18px;
+	}
+
+	.td-text-16px {
+		font-size: 16px;
+	}
+
+	.td-para {
+		font-size: 14px;
+	}
+
+	.td-para_med-height {
+		line-height: 140%;
+	}
+
+	.td-para_alt {
+		font-size: 11pt;
+		line-height: 1.38em;
+	}
+
+	.td-mini-text {
+		font-size: 13px;
+	}
+
+	.td-para_mini {
+		font-size: 12px;
+	}
+
+	.td-small-text {
+		font-size: 11px;
+	}
+
+	.td-text-10px {
+		font-size: 10px;
+	}
+
+	/*Highlights*/
+
+	.highlight-curved_giant {
+		font-size: 3.5rem;
+	}
+
+	.highlight-curved_big {
+		padding: 0 0.3rem;
+		font-size: 1.5rem;
+	}
+
+	/*Elements*/
+
+	.diploma-title {
+		font-size: 1.5rem;
+	}
+}

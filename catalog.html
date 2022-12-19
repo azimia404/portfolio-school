@@ -1,0 +1,2346 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+	<meta charset="utf-8" />
+
+	<link href="style/bootstrap-5.1.3-dist/css/bootstrap-utilities.css" type="text/css" rel="stylesheet" />
+	<link href="style/bootstrap-5.1.3-dist/css/bootstrap-grid.css" type="text/css" rel="stylesheet" />
+
+	<link href="style/main.css" type="text/css" rel="stylesheet" />
+	<link href="style/grid.css" type="text/css" rel="stylesheet" />
+	<link href="style/valuables.css" type="text/css" rel="stylesheet" />
+	<link href="style/typography.css" type="text/css" rel="stylesheet" />
+	<link href="style/elements.css" type="text/css" rel="stylesheet" />
+	<title>FAQ – Видео IT портал</title>
+</head>
+<body>
+<div class="loader-wrapper">
+	<div class="loader">
+		<div class="loader-panel"></div>
+		<div class="loader-panel"></div>
+		<div class="loader-panel"></div>
+		<div class="loader-panel"></div>
+	</div>
+</div>
+
+
+<aside class="side-bar">
+	<header class="side-bar-header">
+		<a href="home.html">
+			<h1 class="side-bar-title">
+				<img class="logo" src="style/img/logo.svg" alt="ITDVN" title="ITDVN" /><span class="logo-text">Видеокурсы по
+программированию</span></h1>
+		</a>
+		<div class="mobile-button-wrapper">
+			<a href="#" class="fal fa-user mobile-button"></a>
+			<a href="#" class="fal fa-bars mobile-button"></a>
+		</div>
+	</header>
+	<div class="positioner">
+
+		<nav class="side-bar-nav">
+			<ul class="nav-list">
+				<li class="list-item"><a class="nav-link far fa-film-alt" href="catalog.html"><span class="nav-link__text">Каталог видеокурсов</span></a></li>
+				<li class="list-item">
+					<a class="nav-link dropdown-item fab fa-galactic-senate" href="specialities.html"><span class="nav-link__text">IT специальности</span></a>
+					<div class="side-bar-item-dropdown dd-grid dd-column">
+						<ul class="nav-list dd-h-gap-0 dd-c-c-3">
+							<li class="list-item"><a class="nav-link fal fa-id-card-alt" href="start.html">С чего начать?</a></li>
+							<li class="list-item"><a class="nav-link fal fa-alarm-clock" href="frontend_developer.html">Front-end</a></li>
+							<li class="list-item"><a class="nav-link fab fa-youtube" href="#">Верстка сайтов</a></li>
+							<li class="list-item"><a class="nav-link fal fa-calendar-alt" href="#">JavaScript</a></li>
+							<li class="list-item"><a class="nav-link fal fa-users" href="#">React</a></li>
+							<li class="list-item"><a class="nav-link fas fa-wallet" href="#">Angular</a></li>
+							<li class="list-item"><a class="nav-link fal fa-envelope" href="#">UI/UX Design</a></li>
+							<li class="list-item"><a class="nav-link fal fa-id-card-alt" href="#">Python</a></li>
+							<li class="list-item"><a class="nav-link fal fa-alarm-clock" href="#">C#/.NET</a></li>
+							<li class="list-item"><a class="nav-link fab fa-youtube" href="#">ASP.NET Core</a></li>
+							<li class="list-item"><a class="nav-link fal fa-calendar-alt" href="#">ASP.NET MVC</a></li>
+							<li class="list-item"><a class="nav-link fal fa-users" href="#">C# WPF & UWP</a></li>
+							<li class="list-item"><a class="nav-link fas fa-wallet" href="#">Unity/Game Dev</a></li>
+							<li class="list-item"><a class="nav-link fal fa-envelope" href="#">Databases</a></li>
+							<li class="list-item"><a class="nav-link fal fa-id-card-alt" href="#">Java</a></li>
+							<li class="list-item"><a class="nav-link fal fa-alarm-clock" href="#">Android</a></li>
+							<li class="list-item"><a class="nav-link fab fa-youtube" href="#">iOS</a></li>
+							<li class="list-item"><a class="nav-link fal fa-calendar-alt" href="#">Quality Assurance</a></li>
+							<li class="list-item"><a class="nav-link fal fa-users" href="#">C++</a></li>
+							<li class="list-item"><a class="nav-link fas fa-wallet" href="#">PHP</a></li>
+							<li class="list-item"><a class="nav-link fal fa-envelope" href="#">Ruby</a></li>
+						</ul>
+						<a class="button framed-button button-medium orange dd-self-c" href="specialities.html">Все Специальности</a>
+					</div>
+				</li>
+				<li class="list-item">
+					<a class="nav-link dropdown-item fal fa-id-card-alt" href="live_online.html"><span class="nav-link__text">Обучение с тренером</span></a>
+					<div class="side-bar-item-dropdown dd-grid dd-column">
+						<ul class="nav-list w-310">
+							<li class="list-item"><a class="nav-link fal fa-alarm-clock" href="introduction_lesson.html">Ознакомительный Урок</a></li>
+							<li class="list-item"><a class="nav-link fab fa-youtube" href="employment_assistance.html">Помощь в трудоустройстве</a></li>
+							<li class="list-item"><a class="nav-link fal fa-calendar-alt" href="front_end_developer.html">Frontend Developer</a></li>
+							<li class="list-item"><a class="nav-link fal fa-users" href="front_end_developer.html">.NET Developer</a></li>
+							<li class="list-item"><a class="nav-link fas fa-wallet" href="front_end_developer.html">Java Developer</a></li>
+							<li class="list-item"><a class="nav-link fal fa-envelope" href="front_end_developer.html">Python Developer</a></li>
+						</ul>
+						<a class="button framed-button button-small orange dd-self-c" href="live_online.html">Live Online Обучение</a>
+					</div>
+				</li>
+				<li class="list-item"><a class="nav-link fal fa-alarm-clock" href="skills.html"><span class="nav-link__text">Интерактивный практикум</span></a></li>
+				<li class="list-item"><a class="nav-link fab fa-youtube" href="webinars.html"><span class="nav-link__text">Бесплатные вебинары</span></a></li>
+				<li class="list-item"><a class="nav-link fal fa-calendar-alt" href="subscriptions.html"><span class="nav-link__text">Цены на обучение</span></a></li>
+				<li class="list-item"><a class="nav-link fal fa-users" href="corporate_education.html"><span class="nav-link__text">Обучение сотрудников</span></a></li>
+				<li class="list-item">
+					<a href="shares.html" class="nav-link dropdown-item fas fa-wallet"><span class="nav-link__text">Акции и Новости</span></a>
+					<div class="side-bar-item-dropdown full dd-grid">
+						<section class="specials-section col-6">
+							<header class="specials-header">
+								<h3 class="specials-title">Акции</h3>
+							</header>
+							<ul class="specials-list">
+								<li class="list-item">
+									<a href="#" class="list-item-container gap-0 row gx-10">
+										<div class="col-6">
+											<div class="ratio ratio-16x9">
+												<img src="style/img/articles-new-06905f75-7893-44f0-a398-802a028f8ebe.jpg" />
+											</div>
+										</div>
+										<div class="col-6 item-body">
+											<header class="item-header">
+												<h4 class="item-title">Подарки И Скидки Ко Дню Рождения Itvdn</h4>
+											</header>
+											<p class="para nd-disappear">14 января образовательному проекту ITVDN исполнится 8 лет. Мы проделали большой путь, создавая видео курсы и вспомогательные сервисы по программированию и информационным технологиям и гордимся нашими результатами. Мы благодарны всем, ...</p>
+											<span class="item-link"><span class="item-link-text">Читать подробней</span></span>
+										</div>
+									</a>
+								</li>
+								<li class="list-item">
+									<a href="#" class="list-item-container gap-0 row gx-10">
+										<div class="col-6">
+											<div class="ratio ratio-16x9">
+												<img src="style/img/555b453c-3fd8-43f0-9572-343a2b8766e3-cover.jpg" />
+											</div>
+										</div>
+										<div class="col-6 item-body">
+											<header class="item-header">
+												<h4 class="item-title">Социальный Проект Itvdn</h4>
+											</header>
+											<p class="para nd-disappear">Мы предоставляем возможность пройти видео обучение бесплатно людям, нуждающимся в нашей помощи (люди с ограниченными возможностями, сироты, дети из многодетных семей). Под бесплатным обучением подразумевается открытие доступа к просмотру выбраного ...</p>
+											<span class="item-link"><span class="item-link-text">Читать подробней</span></span>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<a href="shares.html" class="button framed-button button-medium white dd-self-s">Все Акции</a>
+						</section>
+						<section class="specials-section col-6">
+							<header class="specials-header">
+								<h3 class="specials-title">Новости</h3>
+							</header>
+							<ul class="specials-list">
+								<li class="list-item">
+									<a href="#" class="list-item-container gap-0 row gx-10">
+										<div class="col-6">
+											<div class="ratio ratio-16x9">
+												<img src="style/img/articles-new-c202e5f9-0f5d-425f-afb6-764423af43ac.jpg" />
+											</div>
+										</div>
+										<div class="col-6 item-body">
+											<header class="item-header">
+												<h4 class="item-title">Новый Видео Курс - Entity Framework Core Базовый</h4>
+											</header>
+											<p class="para nd-disappear">Дорогие друзья, на ITVDN опубликован новый видео курс, посвященный изучению Entity Framework Core - открытого кроссплатформенного фреймворка от компании Microsoft для организации работы с данными в .NET приложениях. ...</p>
+											<span class="item-link"><span class="item-link-text">Читать подробней</span></span>
+										</div>
+									</a>
+								</li>
+								<li class="list-item">
+									<a href="#" class="list-item-container gap-0 row gx-10">
+										<div class="col-6">
+											<div class="ratio ratio-16x9">
+												<img src="style/img/articles-new-5b37f4da-dae0-466a-a2d0-68e61fa51aee.png" />
+											</div>
+										</div>
+										<div class="col-6 item-body">
+											<header class="item-header">
+												<h4 class="item-title">Новый Видео Курс - Создание Веб-Приложений На Php</h4>
+											</header>
+											<p class="para nd-disappear">Дорогие друзья, на ITVDN опубликован новый видео курс, посвященный изучению веб-разработки на PHP. ...</p>
+											<span class="item-link"><span class="item-link-text">Читать подробней</span></span>
+										</div>
+									</a>
+								</li>
+								<li class="list-item">
+									<a href="#" class="list-item-container gap-0 row gx-10">
+										<div class="col-6">
+											<div class="ratio ratio-16x9">
+												<img src="style/img/articles-new-da077f54-ba84-464f-a7f7-652b17006d06.png" />
+											</div>
+										</div>
+										<div class="col-6 item-body">
+											<header class="item-header">
+												<h4 class="item-title">Games Gathering 2021 Kiev</h4>
+											</header>
+											<p class="para nd-disappear">Долгожданный Games Gathering 2021 Kiev приближается вместе с зимой! ...</p>
+											<span class="item-link"><span class="item-link-text">Читать подробней</span></span>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<a href="news.html" class="button framed-button button-medium white dd-self-s">Все Новости</a>
+						</section>
+					</div>
+				</li>
+				<li class="list-item">
+					<a href="support.html" class="nav-link dropdown-item fal fa-envelope"><span class="nav-link__text">Служба поддержки</span></a>
+					<div class="side-bar-item-dropdown contact-us positioner">
+						<ul class="nav-list sub-menu">
+							<li class="list-item">
+								<a href="#" class="nav-link far fa-film-alt dropdown-item">Каталог видеокурсов</a>
+								<section class="sub-menu-dropdown dd-grid dd-column dd-v-gap-2">
+									<section class="row d-flex flex-column g-5">
+										<header class="col">
+											<h3 class="sub-menu-title">Ваш Запрос В Службу Поддержки</h3>
+										</header>
+										<div class="col">
+											<div class="container-fluid overflow-hidden px-0">
+												<div class="row row-cols-1 row-cols-xxl-2 g-5">
+													<div class="col">
+														<form class="row d-flex flex-column justify-content-between gy-5 gx-0">
+															<textarea class="textarea-classic" rows="1" placeholder="Имя*"></textarea>
+															<textarea class="textarea-classic" rows="1" placeholder="E-mail*"></textarea>
+															<textarea class="textarea-classic" rows="1" placeholder="050 123 4567"></textarea>
+															<textarea class="textarea-classic" rows="5" placeholder="Сообщение*"></textarea>
+															<input type="button" value="Отправить" class="button filled-button button-small orange dd-self-c" />
+														</form>
+													</div>
+													<div class="col">
+														<section class="address">
+															<header class="address__header">
+																<h3 class="sub-menu-title">Свяжитесь С Нами</h3>
+															</header>
+															<div class="address__body">
+																<section class="address__subsection">
+																	<header class="address__subsection__header">
+																		<h4 class="address__subsection__title">Наши Контакты</h4>
+																	</header>
+																	<p class="para">
+																		02660, г.Киев<br />
+																		ул. Евгения Сверстюка 19,<br />
+																		5 этаж<br />
+																		ПН - ПТ 11:00 - 19:00 СБ - ВС выходной
+																	</p>
+																	<p class="para">
+																		Центр обслуживания клиентов<br />
+																		+38 044 344 16 22<br />
+																		+7 499 112 04 82<br />
+																		+44 204 577 00 53
+																	</p>
+																	<p class="para">
+																		Техническая поддержка<br />
+																		+38 044 344 19 20<br />
+																		ПН - ПТ 11:00 - 00:00 СБ 11:00 - 19:00 ВС выходной
+																	</p>
+																	<dl class="line-dl">
+																		<dt class="line-dl__dt line-dl__dt_iconed skype">Skype: </dt>
+																		<dt class="line-dl__dd"><a href="#" class="link orange">support_itvdn</a></dt>
+																		<dt class="line-dl__dt line-dl__dt_iconed telegram">Telegram: </dt>
+																		<dt class="line-dl__dd"><a href="#" class="link orange">@itvdn_support</a></dt>
+																		<dt class="line-dl__dt line-dl__dt_iconed mail">Email: </dt>
+																		<dt class="line-dl__dd"><a href="#" class="link orange">support@itvdn.com</a></dt>
+																	</dl>
+																</section>
+																<section class="address__subsection">
+																	<header class="address__subsection__header">
+																		<h4 class="address__subsection__title">Время работы</h4>
+																	</header>
+																	<dl class="line-dl">
+																		<dt class="line-dl__dt">Понедельник - пятница: </dt>
+																		<dt class="line-dl__dd">11:00 - 00:00</dt>
+																		<dt class="line-dl__dt">Суббота:  </dt>
+																		<dt class="line-dl__dd">@11:00 - 19:00</dt>
+																		<dt class="line-dl__dt">Воскресенье: </dt>
+																		<dt class="line-dl__dd">выходной</dt>
+																	</dl>
+																	<i class="icon icon_big fal icon_gray fa-envelope"></i>
+																</section>
+															</div>
+														</section>
+													</div>
+												</div>
+											</div>
+										</div>
+									</section>
+									<section class="dd-grid dd-wrap dd-a-c-start dd-v-gap-2 dd-h-gap-2 dd-gap-2">
+										<header class="dd-col-12">
+											<h3 class="sub-menu-title">Мы на карте</h3>
+										</header>
+										<div class="map"></div>
+									</section>
+								</section>
+							</li>
+							<li class="list-item">
+								<a href="#" class="nav-link far fa-film-alt dropdown-item">Консультация с тренером</a>
+								<section class="sub-menu-dropdown dd-grid dd-column dd-v-gap-2">
+									<section class="container row">
+										<header class="col-12">
+											<h3 class="sub-menu-title">Индивидуальные Консультации</h3>
+										</header>
+										<img class="col-4 nd-disappear" src="style/img/consultation.jpg" />
+										<div class="col-12 col-lg-8">
+											<div class="h-100 d-flex flex-column space-between">
+												<p class="para para_white">Нужна помощь в обучении? Обратитесь к специалисту за индивидуальной консультацией.</p>
+												<p class="para para_white mt-2">Если нужно проверить и прокомментировать выполненные Вами задания, найти и исправить ошибки в Вашем коде или помочь расставить приоритеты при планировании дальнейшего обучения по специальности – обращайтесь к нашим специалистам. Вы получите необходимую помощь и поддержку.</p>
+												<a href="#" class="button framed-button button-medium orange dd-self-e mt-auto">Подробней</a>
+											</div>
+										</div>
+									</section>
+									<section class="dd-grid dd-column dd-v-gap-2">
+										<header>
+											<h3 class="sub-menu-title">Уровень сложности</h3>
+										</header>
+										<ul class="empty-list row">
+											<li class="col-4">
+												<div class="card card_consultation card_gray">
+													<header class="card-header">
+														<h3 class="card-title h6 text_white text-nowrap">BEGINNER <span class="dol-per-hour">10</span></h3>
+													</header>
+													<div class="card-body nd-disappear">
+														<ul class="check-list">
+															<li class="list-item">C# 5.0 Стартовый</li>
+															<li class="list-item">JavaScript Стартовый 2015</li>
+															<li class="list-item">Bootstrap 4</li>
+															<li class="list-item">Django</li>
+															<li class="list-item">... и еще 11 курсов</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li class="col-4">
+												<div class="card card_consultation card_cyan">
+													<header class="card-header">
+														<h3 class="card-title h6 text_white text-nowrap">MIDDLE <span class="dol-per-hour">10</span></h3>
+													</header>
+													<div class="card-body nd-disappear">
+														<ul class="check-list">
+															<li class="list-item">C# базовый (ООП)</li>
+															<li class="list-item">Entity Framework 6</li>
+															<li class="list-item">Android Design Support Library</li>
+															<li class="list-item">Android User Interface</li>
+															<li class="list-item">... и еще 25 курсов</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li class="col-4">
+												<div class="card card_consultation card_orange">
+													<header class="card-header">
+														<h3 class="card-title h6 text_white text-nowrap">ADVANCED <span class="dol-per-hour">20</span></h3>
+													</header>
+													<div class="card-body nd-disappear">
+														<ul class="check-list">
+															<li class="list-item">C# Углубленный</li>
+															<li class="list-item">Шаблоны проектирования</li>
+															<li class="list-item">ASP.NET Core Углубленный</li>
+															<li class="list-item">ASP.NET Core Web API. Практический курс</li>
+															<li class="list-item">... и еще 9 курсов</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+										</ul>
+										<a href="#" class="button filled-button button-medium orange align-self-center">Заказать Консультацию</a>
+									</section>
+								</section>
+							</li>
+							<li class="list-item">
+								<a href="#" class="nav-link far fa-film-alt dropdown-item">FAQ</a>
+								<section class="sub-menu-dropdown dd-grid dd-column dd-v-gap-2">
+									<section class="d-flex flex-column gy-5 row">
+										<header>
+											<h3 class="sub-menu-title">Часто Задаваемые Вопросы</h3>
+										</header>
+										<div class="cross-list-container faq">
+											<ul class="cross-list">
+												<li class="list-item fas fa-graduation-cap">Вопросы по обучению<a href="faq.html" class="cover-link"></a></li>
+												<li class="list-item fas fa-money-check">Вопросы оплаты<a href="faq.html" class="cover-link"></a></li>
+												<li class="list-item fas fa-cog">Технические вопросы<a href="faq.html" class="cover-link"></a></li>
+												<li class="list-item far fa-file-certificate">Документы о прохождении<a href="faq.html" class="cover-link"></a></li>
+											</ul>
+										</div>
+										<div class="d-flex justify-content-center"><a href="faq.html" class="button framed-button button-medium orange">Посмотреть все</a></div>
+									</section>
+								</section>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</nav>
+		<footer class="side-bar-footer">
+			<span class="side-bar-footer-title">Выбери свою
+			<span class="accent-word">IT</span>
+				специальность</span>
+			<a class="button filled-button button-medium orange" href="#">Начать Бесплатно</a>
+			<section class="side-bar-social">
+				<h3 class="social-title">Мы в соцсетях</h3>
+				<ul class="social-list">
+					<li class="list-item"><a class="social-link fab fa-vk" href="https://vk.com/itvdn"></a></li>
+					<li class="list-item"><a class="social-link fab fa-facebook-f" href="https://www.facebook.com/ITVDN.EDU"></a></li>
+					<li class="list-item"><a class="social-link fab fa-youtube" href="https://www.youtube.com/user/CBSystematicsTV"></a></li>
+					<li class="list-item"><a class="social-link fab fa-telegram-plane" href="https://t.me/itvdn1"></a></li>
+					<li class="list-item"><a class="social-link fab fa-linkedin-in" href="https://www.linkedin.com/company/itvdn/"></a></li>
+				</ul>
+			</section>
+			<div class="search far fa-search"></div>
+		</footer>
+	</div>
+</aside>
+
+
+<main class="main container-fluid gx-0">
+<header class="navbar">
+	<div class="navbar-left dd-h-gap-1">
+		<p class="motto">
+			Выбери свою
+		<span class="it">IT</span>
+			Специальность
+		</p>
+		<div class="button button-medium filled-button orange">Начать Бесплатно</div>
+	</div>
+	<div class="navbar-right">
+		<div class="search far fa-search"></div>
+		<div class="sign-in far fa-user-circle">Авторизация</div>
+	</div>
+</header>
+
+<section class="row flex-column gy-5">
+	<header class="top-bar">
+		<span class="top-bar-title">Фильтр :</span>
+		<ul class="top-bar__list">
+			<li class="top-bar__list__item">Уровень сложности
+				<div class="top-bar__dropdown holder">
+					<ul class="modern-list modern-list_infinite" style="width: 50%;">
+						<li class="modern-list__item">Beginner</li>
+						<li class="modern-list__item">Middle</li>
+						<li class="modern-list__item">Advanced</li>
+					</ul>
+				</div>
+			</li>
+			<li class="top-bar__list__item">Специальности
+				<div class="top-bar__dropdown holder">
+					<ul class="modern-list modern-list_alt dd-gap-0" style="width: 100%;">
+						<li class="modern-list__item dd-col-3 fal fa-rocket-launch">С чего начать?</li>
+						<li class="modern-list__item dd-col-3 fal fa-rocket-launch">Front-end</li>
+						<li class="modern-list__item dd-col-3 fal fa-rocket-launch">Верстка сайтов</li>
+						<li class="modern-list__item dd-col-3 fal fa-rocket-launch">JavaScript</li>
+						<li class="modern-list__item dd-col-3 fal fa-rocket-launch">React</li>
+						<li class="modern-list__item dd-col-3 fal fa-rocket-launch">Angular</li>
+						<li class="modern-list__item dd-col-3 fal fa-rocket-launch">UI/UX Design</li>
+						<li class="modern-list__item dd-col-3 fal fa-rocket-launch">Python</li>
+						<li class="modern-list__item dd-col-3 fal fa-rocket-launch">C#/.NET</li>
+						<li class="modern-list__item dd-col-3 fal fa-rocket-launch">ASP.NET Core</li>
+						<li class="modern-list__item dd-col-3 fal fa-rocket-launch">ASP.NET MVC</li>
+						<li class="modern-list__item dd-col-3 fal fa-rocket-launch">C# WPF &amp; UWP</li>
+						<li class="modern-list__item dd-col-3 fal fa-rocket-launch">Unity/Game Dev</li>
+						<li class="modern-list__item dd-col-3 fal fa-rocket-launch">Databases</li>
+						<li class="modern-list__item dd-col-3 fal fa-rocket-launch">Java</li>
+						<li class="modern-list__item dd-col-3 fal fa-rocket-launch">Android</li>
+						<li class="modern-list__item dd-col-3 fal fa-rocket-launch">iOS</li>
+					</ul>
+				</div>
+			</li>
+			<li class="top-bar__list__item">Авторы
+				<div class="top-bar__dropdown top-bar__dropdown_vertical">
+					<div class="top-bar__dropdown_holder">
+						<div class="simple-search" style="width: 50%;"></div>
+					</div>
+					<ul class="modern-list modern-list_authors dd-child-grow-1 nd-child-grow-0" style="width: 100%;">
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px mini-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+						<li class="modern-list__item dd-h-gap-1 dd-col-3 nd-col-4 td-col-4">
+							<div class="dd-col-3 dd-ratio-3 nd-col-4 nd-ratio-4 td-col-4 td-ratio-4">
+								<img class="modern-list_author__avatar" alt="Author Photo" src="https://itvdn.blob.core.windows.net/itvdn-authors/itvdn-authors-bb0da32f-0d81-4e88-ba40-23be68babc33.jpg">
+							</div>
+							<div class="modern-list_author__item-body dd-col-11 nd-col-8 td-col-8 ta-left">
+								<h6 class="h6-light nd-para td-para">Александр Шевчук</h6>
+								<p class="para nd-text-10px td-text-10px nd-small-text">Эксперт в области построения архитектуры информационных систем, бизнес-анализа и управления IT проектами</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li class="top-bar__list__item">Дата</li>
+			<li class="top-bar__list__item">Бесплатное</li>
+		</ul>
+		<div class="top-bar__end">
+			<span>Виды</span>
+			<ul class="line-choice-list line-choice-list_orange">
+				<li class="line-choice-list__item fal fa-chimney"></li>
+				<li class="line-choice-list__item fas fa-line-columns"></li>
+			</ul>
+		</div>
+	</header>
+	<ul class="empty-list holder row g-3 row-cols-3 row-cols-lg-4 nd-holder_small td-holder_small">
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+		<li class="col">
+			<div class="flip-card-wrapper ">
+				<div class="flip-card">
+					<div class="flip-card__face">
+						<header class="flip-card__header">
+							<a href="#">
+								<img src="https://itvdn.blob.core.windows.net/catalog-images/procedural-programming-csharp-img.jpg" alt="Курс C# 8.0 Стартовый" title="Курс C# 8.0 Стартовый"></a>
+							<div>
+								<a href="#">
+									<h5 class="text_special_superbold para">C# 8.0 Стартовый</h5>
+								</a>
+								<span class="card_course__details">Александр Шевчук</span>
+							</div>
+						</header>
+						<footer class="flip-card__footer">
+							<date class="card_course__details"><span class="text_special_superbold">Обновлен:</span> 05.02.2021</date>
+							<ul class="webinar-details-list nd-small-text">
+								<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+								<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+							</ul>
+						</footer>
+					</div>
+					<div class="flip-card__back">
+						<header class="flip-card__header">
+							<h5><a href="#" class="text_special_superbold flip-card__back__title">C# 8.0 Стартовый</a></h5>
+							<a class="far fa-bookmark text_special_superbold" href="#"></a>
+						</header>
+						<ul class="webinar-details-list nd-small-text">
+							<li class="far fa-hourglass-half text_special_bold nd-col-6">28 ч 49 м</li>
+							<li class="fab fa-youtube text_special_bold nd-col-6">43 урока</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text">
+							<li class="card_course__details"><span class="text_special_superbold">Автор: </span>Александр Шевчук</li>
+							<li class="card_course__details"><span class="text_special_superbold">Курс создан: </span>17.02.2020</li>
+							<li class="card_course__details"><span class="text_special_superbold">Обновлен: </span>05.02.2021</li>
+						</ul>
+						<span class="card_course__details">Курс входит в специальности:</span>
+						<ul class="empty-list dd-grid dd-column dd-v-gap-0-5 nd-v-gap-0-25 nd-small-text dd-items-start">
+							<li class="card_course__details"><span class="tag para fas fa-audio-description">.NET Developer</span></li>
+							<li class="card_course__details dd-grid dd-h-gap-0-5 dd-items-center"><span class="tag para fab fa-battle-net">ASP.NET Core Developer</span> +еще 2</li>
+						</ul>
+						<ul class="empty-list dd-grid dd-h-gap-0-5 nd-disappear">
+							<li class="icon icon_small gray-5 fas fa-download" title="Скачивание материалов"></li>
+							<li class="icon icon_small gray-5 fab fa-searchengin" title="Проверка ДЗ"></li>
+							<li class="icon icon_small gray-5 far fa-file-alt" title="Тестирование"></li>
+						</ul>
+						<a class="button button-medium orange filled-button dd-self-c" href="#">Смотреть</a>
+					</div>
+				</div>
+			</div>
+		</li>
+	</ul>
+	<footer class="row flex-column gy-4">
+		<div class="col d-flex flex-column">
+			<div class="button filled-button button-medium orange dd-self-c">Больше Курсов <span class="fal fa-chevron-circle-down"></span></div>
+		</div>
+		<div class="col d-flex flex-column">
+			<ul class="pagination-list_framed pagination-list_orange dd-self-c">
+				<li class="pagination-list_framed__item pagination-list__item_prev"></li>
+				<li class="pagination-list_framed__item pagination-list__item_first"></li>
+				<li class="pagination-list_framed__item pagination-list__item_page"></li>
+				<li class="pagination-list_framed__item pagination-list__item_page"></li>
+				<li class="pagination-list_framed__item pagination-list__item_page"></li>
+				<li class="pagination-list_framed__item pagination-list__item_page"></li>
+				<li class="pagination-list_framed__item pagination-list__item_page"></li>
+				<li class="pagination-list_framed__item pagination-list__item_next"></li>
+				<li class="pagination-list_framed__item pagination-list__item_last"></li>
+			</ul>
+		</div>
+	</footer>
+</section>
+<section class="row flex-flex-column gy-3 subscription-section">
+	<header>
+		<h2 class="h4-alt ta-center">Пакеты Подписки С Доступом Ко Всем Курсам И Сервисам</h2>
+	</header>
+	<ul class="empty-list row space-between g-3 row-col-12 row-col-lg-3">
+		<li class="col">
+			<div class="sub-card">
+				<header class="sub-card-header">
+					<h3 class="sub-card-title">Стартовый</h3>
+				</header>
+				<ul class="check-list cyan">
+					<li class="list-item">Все видеокурсы на 3 месяца</li>
+					<li class="list-item">Тестирование по 10 курсам</li>
+					<li class="list-item">Проверка 5 домашних заданий</li>
+					<li class="list-item">Консультация с тренером 30 мин</li>
+				</ul>
+				<footer class="sub-card-footer">
+					<span class="dollar">49.99</span>
+					<div class="button filled-button button-medium cyan">Подписка</div>
+				</footer>
+			</div>
+		</li>
+		<li class="col">
+			<div class="sub-card">
+				<header class="sub-card-header">
+					<h3 class="sub-card-title">Базовый</h3>
+				</header>
+				<ul class="check-list orange">
+					<li class="list-item">Все видеокурсы на 6 месяцев</li>
+					<li class="list-item">Тестирование по 16 курсам</li>
+					<li class="list-item">Проверка 10 домашних заданий</li>
+					<li class="list-item">Консультация с тренером 60 мин</li>
+				</ul>
+				<footer class="sub-card-footer">
+					<span class="dollar">89.99</span>
+					<div class="button filled-button button-medium orange">Подписка</div>
+				</footer>
+			</div>
+		</li>
+		<li class="col">
+			<div class="sub-card">
+				<header class="sub-card-header">
+					<h3 class="sub-card-title">Премиум</h3>
+				</header>
+				<ul class="check-list platinum">
+					<li class="list-item">Все видеокурсы на 12 месяца</li>
+					<li class="list-item">Тестирование по 24 курсам</li>
+					<li class="list-item">Проверка 20 домашних заданий</li>
+					<li class="list-item">Консультация с тренером 120 мин</li>
+				</ul>
+				<footer class="sub-card-footer">
+					<span class="dollar">169.99</span>
+					<div class="button filled-button button-medium platinum">Подписка</div>
+				</footer>
+			</div>
+		</li>
+	</ul>
+</section>
+
+<footer class="page-footer">
+	<ul class="page-footer-info">
+		<li>
+			<h5 class="page-footer-info__column-title">Обучение</h5>
+			<ul class="empty-list">
+				<li><a href="#" class="standart-link">Консультация с тренером</a></li>
+				<li><a href="#" class="standart-link">Каталог курсов</a></li>
+				<li><a href="#" class="standart-link">IT специальности</a></li>
+				<li><a href="#" class="standart-link">Планы подписок</a></li>
+				<li><a href="#" class="standart-link">Подарочные сертификаты</a></li>
+				<li><a href="#" class="standart-link">Live-Online обучение</a></li>
+				<li><a href="#" class="standart-link">Видео канал</a></li>
+				<li><a href="#" class="standart-link">Статьи</a></li>
+				<li><a href="#" class="standart-link">Форум</a></li>
+			</ul>
+		</li>
+		<li>
+			<h5 class="page-footer-info__column-title">Популярное</h5>
+			<ul class="empty-list">
+				<li><a href="#" class="standart-link">С чего начать обучение</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки Python</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки C#</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки ASP.NET Core</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки Java</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки HTML&CSS</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки JavaScript</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки Angular</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки React</a></li>
+			</ul>
+		</li>
+		<li>
+			<h5 class="page-footer-info__column-title">Сотрудничество</h5>
+			<ul class="empty-list">
+				<li><a href="#" class="standart-link">Стань автором</a></li>
+				<li><a href="#" class="standart-link">Для IT компаний</a></li>
+			</ul>
+		</li>
+		<li>
+			<h5 class="page-footer-info__column-title">О Проекте</h5>
+			<ul class="empty-list">
+				<li><a href="#" class="standart-link">О проекте</a></li>
+				<li><a href="#" class="standart-link">Контакты</a></li>
+				<li><a href="#" class="standart-link">FAQ</a></li>
+				<li><a href="#" class="standart-link">Архив рассылок</a></li>
+				<li><a href="#" class="standart-link">Авторы</a></li>
+				<li><a href="#" class="standart-link">Социальный проект</a></li>
+			</ul>
+		</li>
+	</ul>
+	<div class="page-footer-mailing">
+		<h4 class="h4 mailing">Подпишись На Рассылку</h4>
+		<p class="para">Будь в курсе новых акций ITVDN, видео уроков и вебинаров</p>
+		<div class="mailing-input"></div>
+	</div>
+	<div class="footer-down">
+		<ul class="empty-list dd-grid dd-h-gap-1">
+			<li><a href="#" class="standart-link">Условия пользования</a></li>
+			<li><a href="#" class="standart-link">Заявление о конфиденциальности</a></li>
+			<li><a href="#" class="standart-link">Договор публичной оферты</a></li>
+			<li><a href="#" class="standart-link">Карта сайта</a></li>
+		</ul>
+		<span class="all-rights">©2022 ITVDN, все права защищены</span>
+	</div>
+</footer>
+</main>
+</body>
+</html>

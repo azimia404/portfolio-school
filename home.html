@@ -1,0 +1,852 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+	<meta charset="utf-8" />
+
+	<link href="style/bootstrap-5.1.3-dist/css/bootstrap-utilities.css" type="text/css" rel="stylesheet" />
+	<link href="style/bootstrap-5.1.3-dist/css/bootstrap-grid.css" type="text/css" rel="stylesheet" />
+
+	<link href="style/main.css" type="text/css" rel="stylesheet" />
+	<link href="style/grid.css" type="text/css" rel="stylesheet" />
+	<link href="style/valuables.css" type="text/css" rel="stylesheet" />
+	<link href="style/typography.css" type="text/css" rel="stylesheet" />
+	<link href="style/elements.css" type="text/css" rel="stylesheet" />
+
+	<title>IT Курсы программирования онлайн - обучение программированию, видео уроки | ITVDN</title>
+</head>
+<body id="home">
+<div class="loader-wrapper">
+	<div class="loader">
+		<div class="loader-panel"></div>
+		<div class="loader-panel"></div>
+		<div class="loader-panel"></div>
+		<div class="loader-panel"></div>
+	</div>
+</div>
+
+<aside class="side-bar">
+	<header class="side-bar-header">
+		<a href="home.html">
+			<h1 class="side-bar-title">
+				<img class="logo" src="style/img/logo.svg" alt="ITDVN" title="ITDVN" /><span class="logo-text">Видеокурсы по
+программированию</span></h1>
+		</a>
+		<div class="mobile-button-wrapper">
+			<a href="#" class="fal fa-user mobile-button"></a>
+			<a href="#" class="fal fa-bars mobile-button"></a>
+		</div>
+	</header>
+	<div class="positioner">
+
+		<nav class="side-bar-nav">
+			<ul class="nav-list">
+				<li class="list-item"><a class="nav-link far fa-film-alt" href="catalog.html"><span class="nav-link__text">Каталог видеокурсов</span></a></li>
+				<li class="list-item">
+					<a class="nav-link dropdown-item fab fa-galactic-senate" href="specialities.html"><span class="nav-link__text">IT специальности</span></a>
+					<div class="side-bar-item-dropdown dd-grid dd-column">
+						<ul class="nav-list dd-h-gap-0 dd-c-c-3">
+							<li class="list-item"><a class="nav-link fal fa-id-card-alt" href="start.html">С чего начать?</a></li>
+							<li class="list-item"><a class="nav-link fal fa-alarm-clock" href="frontend_developer.html">Front-end</a></li>
+							<li class="list-item"><a class="nav-link fab fa-youtube" href="#">Верстка сайтов</a></li>
+							<li class="list-item"><a class="nav-link fal fa-calendar-alt" href="#">JavaScript</a></li>
+							<li class="list-item"><a class="nav-link fal fa-users" href="#">React</a></li>
+							<li class="list-item"><a class="nav-link fas fa-wallet" href="#">Angular</a></li>
+							<li class="list-item"><a class="nav-link fal fa-envelope" href="#">UI/UX Design</a></li>
+							<li class="list-item"><a class="nav-link fal fa-id-card-alt" href="#">Python</a></li>
+							<li class="list-item"><a class="nav-link fal fa-alarm-clock" href="#">C#/.NET</a></li>
+							<li class="list-item"><a class="nav-link fab fa-youtube" href="#">ASP.NET Core</a></li>
+							<li class="list-item"><a class="nav-link fal fa-calendar-alt" href="#">ASP.NET MVC</a></li>
+							<li class="list-item"><a class="nav-link fal fa-users" href="#">C# WPF & UWP</a></li>
+							<li class="list-item"><a class="nav-link fas fa-wallet" href="#">Unity/Game Dev</a></li>
+							<li class="list-item"><a class="nav-link fal fa-envelope" href="#">Databases</a></li>
+							<li class="list-item"><a class="nav-link fal fa-id-card-alt" href="#">Java</a></li>
+							<li class="list-item"><a class="nav-link fal fa-alarm-clock" href="#">Android</a></li>
+							<li class="list-item"><a class="nav-link fab fa-youtube" href="#">iOS</a></li>
+							<li class="list-item"><a class="nav-link fal fa-calendar-alt" href="#">Quality Assurance</a></li>
+							<li class="list-item"><a class="nav-link fal fa-users" href="#">C++</a></li>
+							<li class="list-item"><a class="nav-link fas fa-wallet" href="#">PHP</a></li>
+							<li class="list-item"><a class="nav-link fal fa-envelope" href="#">Ruby</a></li>
+						</ul>
+						<a class="button framed-button button-medium orange dd-self-c" href="specialities.html">Все Специальности</a>
+					</div>
+				</li>
+				<li class="list-item">
+					<a class="nav-link dropdown-item fal fa-id-card-alt" href="live_online.html"><span class="nav-link__text">Обучение с тренером</span></a>
+					<div class="side-bar-item-dropdown dd-grid dd-column">
+						<ul class="nav-list w-310">
+							<li class="list-item"><a class="nav-link fal fa-alarm-clock" href="introduction_lesson.html">Ознакомительный Урок</a></li>
+							<li class="list-item"><a class="nav-link fab fa-youtube" href="employment_assistance.html">Помощь в трудоустройстве</a></li>
+							<li class="list-item"><a class="nav-link fal fa-calendar-alt" href="front_end_developer.html">Frontend Developer</a></li>
+							<li class="list-item"><a class="nav-link fal fa-users" href="front_end_developer.html">.NET Developer</a></li>
+							<li class="list-item"><a class="nav-link fas fa-wallet" href="front_end_developer.html">Java Developer</a></li>
+							<li class="list-item"><a class="nav-link fal fa-envelope" href="front_end_developer.html">Python Developer</a></li>
+						</ul>
+						<a class="button framed-button button-small orange dd-self-c" href="live_online.html">Live Online Обучение</a>
+					</div>
+				</li>
+				<li class="list-item"><a class="nav-link fal fa-alarm-clock" href="skills.html"><span class="nav-link__text">Интерактивный практикум</span></a></li>
+				<li class="list-item"><a class="nav-link fab fa-youtube" href="webinars.html"><span class="nav-link__text">Бесплатные вебинары</span></a></li>
+				<li class="list-item"><a class="nav-link fal fa-calendar-alt" href="subscriptions.html"><span class="nav-link__text">Цены на обучение</span></a></li>
+				<li class="list-item"><a class="nav-link fal fa-users" href="corporate_education.html"><span class="nav-link__text">Обучение сотрудников</span></a></li>
+				<li class="list-item">
+					<a href="shares.html" class="nav-link dropdown-item fas fa-wallet"><span class="nav-link__text">Акции и Новости</span></a>
+					<div class="side-bar-item-dropdown full dd-grid">
+						<section class="specials-section col-6">
+							<header class="specials-header">
+								<h3 class="specials-title">Акции</h3>
+							</header>
+							<ul class="specials-list">
+								<li class="list-item">
+									<a href="#" class="list-item-container gap-0 row gx-10">
+										<div class="col-6">
+											<div class="ratio ratio-16x9">
+												<img src="style/img/articles-new-06905f75-7893-44f0-a398-802a028f8ebe.jpg" />
+											</div>
+										</div>
+										<div class="col-6 item-body">
+											<header class="item-header">
+												<h4 class="item-title">Подарки И Скидки Ко Дню Рождения Itvdn</h4>
+											</header>
+											<p class="para nd-disappear">14 января образовательному проекту ITVDN исполнится 8 лет. Мы проделали большой путь, создавая видео курсы и вспомогательные сервисы по программированию и информационным технологиям и гордимся нашими результатами. Мы благодарны всем, ...</p>
+											<span class="item-link"><span class="item-link-text">Читать подробней</span></span>
+										</div>
+									</a>
+								</li>
+								<li class="list-item">
+									<a href="#" class="list-item-container gap-0 row gx-10">
+										<div class="col-6">
+											<div class="ratio ratio-16x9">
+												<img src="style/img/555b453c-3fd8-43f0-9572-343a2b8766e3-cover.jpg" />
+											</div>
+										</div>
+										<div class="col-6 item-body">
+											<header class="item-header">
+												<h4 class="item-title">Социальный Проект Itvdn</h4>
+											</header>
+											<p class="para nd-disappear">Мы предоставляем возможность пройти видео обучение бесплатно людям, нуждающимся в нашей помощи (люди с ограниченными возможностями, сироты, дети из многодетных семей). Под бесплатным обучением подразумевается открытие доступа к просмотру выбраного ...</p>
+											<span class="item-link"><span class="item-link-text">Читать подробней</span></span>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<a href="shares.html" class="button framed-button button-medium white dd-self-s">Все Акции</a>
+						</section>
+						<section class="specials-section col-6">
+							<header class="specials-header">
+								<h3 class="specials-title">Новости</h3>
+							</header>
+							<ul class="specials-list">
+								<li class="list-item">
+									<a href="#" class="list-item-container gap-0 row gx-10">
+										<div class="col-6">
+											<div class="ratio ratio-16x9">
+												<img src="style/img/articles-new-c202e5f9-0f5d-425f-afb6-764423af43ac.jpg" />
+											</div>
+										</div>
+										<div class="col-6 item-body">
+											<header class="item-header">
+												<h4 class="item-title">Новый Видео Курс - Entity Framework Core Базовый</h4>
+											</header>
+											<p class="para nd-disappear">Дорогие друзья, на ITVDN опубликован новый видео курс, посвященный изучению Entity Framework Core - открытого кроссплатформенного фреймворка от компании Microsoft для организации работы с данными в .NET приложениях. ...</p>
+											<span class="item-link"><span class="item-link-text">Читать подробней</span></span>
+										</div>
+									</a>
+								</li>
+								<li class="list-item">
+									<a href="#" class="list-item-container gap-0 row gx-10">
+										<div class="col-6">
+											<div class="ratio ratio-16x9">
+												<img src="style/img/articles-new-5b37f4da-dae0-466a-a2d0-68e61fa51aee.png" />
+											</div>
+										</div>
+										<div class="col-6 item-body">
+											<header class="item-header">
+												<h4 class="item-title">Новый Видео Курс - Создание Веб-Приложений На Php</h4>
+											</header>
+											<p class="para nd-disappear">Дорогие друзья, на ITVDN опубликован новый видео курс, посвященный изучению веб-разработки на PHP. ...</p>
+											<span class="item-link"><span class="item-link-text">Читать подробней</span></span>
+										</div>
+									</a>
+								</li>
+								<li class="list-item">
+									<a href="#" class="list-item-container gap-0 row gx-10">
+										<div class="col-6">
+											<div class="ratio ratio-16x9">
+												<img src="style/img/articles-new-da077f54-ba84-464f-a7f7-652b17006d06.png" />
+											</div>
+										</div>
+										<div class="col-6 item-body">
+											<header class="item-header">
+												<h4 class="item-title">Games Gathering 2021 Kiev</h4>
+											</header>
+											<p class="para nd-disappear">Долгожданный Games Gathering 2021 Kiev приближается вместе с зимой! ...</p>
+											<span class="item-link"><span class="item-link-text">Читать подробней</span></span>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<a href="news.html" class="button framed-button button-medium white dd-self-s">Все Новости</a>
+						</section>
+					</div>
+				</li>
+				<li class="list-item">
+					<a href="support.html" class="nav-link dropdown-item fal fa-envelope"><span class="nav-link__text">Служба поддержки</span></a>
+					<div class="side-bar-item-dropdown contact-us positioner">
+						<ul class="nav-list sub-menu">
+							<li class="list-item">
+								<a href="#" class="nav-link far fa-film-alt dropdown-item">Каталог видеокурсов</a>
+								<section class="sub-menu-dropdown dd-grid dd-column dd-v-gap-2">
+									<section class="row d-flex flex-column g-5">
+										<header class="col">
+											<h3 class="sub-menu-title">Ваш Запрос В Службу Поддержки</h3>
+										</header>
+										<div class="col">
+											<div class="container-fluid overflow-hidden px-0">
+												<div class="row row-cols-1 row-cols-xxl-2 g-5">
+													<div class="col">
+														<form class="row d-flex flex-column justify-content-between gy-5 gx-0">
+															<textarea class="textarea-classic" rows="1" placeholder="Имя*"></textarea>
+															<textarea class="textarea-classic" rows="1" placeholder="E-mail*"></textarea>
+															<textarea class="textarea-classic" rows="1" placeholder="050 123 4567"></textarea>
+															<textarea class="textarea-classic" rows="5" placeholder="Сообщение*"></textarea>
+															<input type="button" value="Отправить" class="button filled-button button-small orange dd-self-c" />
+														</form>
+													</div>
+													<div class="col">
+														<section class="address">
+															<header class="address__header">
+																<h3 class="sub-menu-title">Свяжитесь С Нами</h3>
+															</header>
+															<div class="address__body">
+																<section class="address__subsection">
+																	<header class="address__subsection__header">
+																		<h4 class="address__subsection__title">Наши Контакты</h4>
+																	</header>
+																	<p class="para">
+																		02660, г.Киев<br />
+																		ул. Евгения Сверстюка 19,<br />
+																		5 этаж<br />
+																		ПН - ПТ 11:00 - 19:00 СБ - ВС выходной
+																	</p>
+																	<p class="para">
+																		Центр обслуживания клиентов<br />
+																		+38 044 344 16 22<br />
+																		+7 499 112 04 82<br />
+																		+44 204 577 00 53
+																	</p>
+																	<p class="para">
+																		Техническая поддержка<br />
+																		+38 044 344 19 20<br />
+																		ПН - ПТ 11:00 - 00:00 СБ 11:00 - 19:00 ВС выходной
+																	</p>
+																	<dl class="line-dl">
+																		<dt class="line-dl__dt line-dl__dt_iconed skype">Skype: </dt>
+																		<dt class="line-dl__dd"><a href="#" class="link orange">support_itvdn</a></dt>
+																		<dt class="line-dl__dt line-dl__dt_iconed telegram">Telegram: </dt>
+																		<dt class="line-dl__dd"><a href="#" class="link orange">@itvdn_support</a></dt>
+																		<dt class="line-dl__dt line-dl__dt_iconed mail">Email: </dt>
+																		<dt class="line-dl__dd"><a href="#" class="link orange">support@itvdn.com</a></dt>
+																	</dl>
+																</section>
+																<section class="address__subsection">
+																	<header class="address__subsection__header">
+																		<h4 class="address__subsection__title">Время работы</h4>
+																	</header>
+																	<dl class="line-dl">
+																		<dt class="line-dl__dt">Понедельник - пятница: </dt>
+																		<dt class="line-dl__dd">11:00 - 00:00</dt>
+																		<dt class="line-dl__dt">Суббота:  </dt>
+																		<dt class="line-dl__dd">@11:00 - 19:00</dt>
+																		<dt class="line-dl__dt">Воскресенье: </dt>
+																		<dt class="line-dl__dd">выходной</dt>
+																	</dl>
+																	<i class="icon icon_big fal icon_gray fa-envelope"></i>
+																</section>
+															</div>
+														</section>
+													</div>
+												</div>
+											</div>
+										</div>
+									</section>
+									<section class="dd-grid dd-wrap dd-a-c-start dd-v-gap-2 dd-h-gap-2 dd-gap-2">
+										<header class="dd-col-12">
+											<h3 class="sub-menu-title">Мы на карте</h3>
+										</header>
+										<div class="map"></div>
+									</section>
+								</section>
+							</li>
+							<li class="list-item">
+								<a href="#" class="nav-link far fa-film-alt dropdown-item">Консультация с тренером</a>
+								<section class="sub-menu-dropdown dd-grid dd-column dd-v-gap-2">
+									<section class="container row">
+										<header class="col-12">
+											<h3 class="sub-menu-title">Индивидуальные Консультации</h3>
+										</header>
+										<img class="col-4 nd-disappear" src="style/img/consultation.jpg" />
+										<div class="col-12 col-lg-8">
+											<div class="h-100 d-flex flex-column space-between">
+												<p class="para para_white">Нужна помощь в обучении? Обратитесь к специалисту за индивидуальной консультацией.</p>
+												<p class="para para_white mt-2">Если нужно проверить и прокомментировать выполненные Вами задания, найти и исправить ошибки в Вашем коде или помочь расставить приоритеты при планировании дальнейшего обучения по специальности – обращайтесь к нашим специалистам. Вы получите необходимую помощь и поддержку.</p>
+												<a href="#" class="button framed-button button-medium orange dd-self-e mt-auto">Подробней</a>
+											</div>
+										</div>
+									</section>
+									<section class="dd-grid dd-column dd-v-gap-2">
+										<header>
+											<h3 class="sub-menu-title">Уровень сложности</h3>
+										</header>
+										<ul class="empty-list row">
+											<li class="col-4">
+												<div class="card card_consultation card_gray">
+													<header class="card-header">
+														<h3 class="card-title h6 text_white text-nowrap">BEGINNER <span class="dol-per-hour">10</span></h3>
+													</header>
+													<div class="card-body nd-disappear">
+														<ul class="check-list">
+															<li class="list-item">C# 5.0 Стартовый</li>
+															<li class="list-item">JavaScript Стартовый 2015</li>
+															<li class="list-item">Bootstrap 4</li>
+															<li class="list-item">Django</li>
+															<li class="list-item">... и еще 11 курсов</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li class="col-4">
+												<div class="card card_consultation card_cyan">
+													<header class="card-header">
+														<h3 class="card-title h6 text_white text-nowrap">MIDDLE <span class="dol-per-hour">10</span></h3>
+													</header>
+													<div class="card-body nd-disappear">
+														<ul class="check-list">
+															<li class="list-item">C# базовый (ООП)</li>
+															<li class="list-item">Entity Framework 6</li>
+															<li class="list-item">Android Design Support Library</li>
+															<li class="list-item">Android User Interface</li>
+															<li class="list-item">... и еще 25 курсов</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+											<li class="col-4">
+												<div class="card card_consultation card_orange">
+													<header class="card-header">
+														<h3 class="card-title h6 text_white text-nowrap">ADVANCED <span class="dol-per-hour">20</span></h3>
+													</header>
+													<div class="card-body nd-disappear">
+														<ul class="check-list">
+															<li class="list-item">C# Углубленный</li>
+															<li class="list-item">Шаблоны проектирования</li>
+															<li class="list-item">ASP.NET Core Углубленный</li>
+															<li class="list-item">ASP.NET Core Web API. Практический курс</li>
+															<li class="list-item">... и еще 9 курсов</li>
+														</ul>
+													</div>
+												</div>
+											</li>
+										</ul>
+										<a href="#" class="button filled-button button-medium orange align-self-center">Заказать Консультацию</a>
+									</section>
+								</section>
+							</li>
+							<li class="list-item">
+								<a href="#" class="nav-link far fa-film-alt dropdown-item">FAQ</a>
+								<section class="sub-menu-dropdown dd-grid dd-column dd-v-gap-2">
+									<section class="d-flex flex-column gy-5 row">
+										<header>
+											<h3 class="sub-menu-title">Часто Задаваемые Вопросы</h3>
+										</header>
+										<div class="cross-list-container faq">
+											<ul class="cross-list">
+												<li class="list-item fas fa-graduation-cap">Вопросы по обучению<a href="faq.html" class="cover-link"></a></li>
+												<li class="list-item fas fa-money-check">Вопросы оплаты<a href="faq.html" class="cover-link"></a></li>
+												<li class="list-item fas fa-cog">Технические вопросы<a href="faq.html" class="cover-link"></a></li>
+												<li class="list-item far fa-file-certificate">Документы о прохождении<a href="faq.html" class="cover-link"></a></li>
+											</ul>
+										</div>
+										<div class="d-flex justify-content-center"><a href="faq.html" class="button framed-button button-medium orange">Посмотреть все</a></div>
+									</section>
+								</section>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</nav>
+		<footer class="side-bar-footer">
+			<span class="side-bar-footer-title">Выбери свою
+			<span class="accent-word">IT</span>
+				специальность</span>
+			<a class="button filled-button button-medium orange" href="#">Начать Бесплатно</a>
+			<section class="side-bar-social">
+				<h3 class="social-title">Мы в соцсетях</h3>
+				<ul class="social-list">
+					<li class="list-item"><a class="social-link fab fa-vk" href="https://vk.com/itvdn"></a></li>
+					<li class="list-item"><a class="social-link fab fa-facebook-f" href="https://www.facebook.com/ITVDN.EDU"></a></li>
+					<li class="list-item"><a class="social-link fab fa-youtube" href="https://www.youtube.com/user/CBSystematicsTV"></a></li>
+					<li class="list-item"><a class="social-link fab fa-telegram-plane" href="https://t.me/itvdn1"></a></li>
+					<li class="list-item"><a class="social-link fab fa-linkedin-in" href="https://www.linkedin.com/company/itvdn/"></a></li>
+				</ul>
+			</section>
+			<div class="search far fa-search"></div>
+		</footer>
+	</div>
+</aside>
+
+
+<main class="main container-fluid gx-0">
+<header class="navbar">
+	<div class="navbar-left dd-h-gap-1">
+		<p class="motto">
+			Выбери свою
+		<span class="it">IT</span>
+			Специальность
+		</p>
+		<div class="button button-medium filled-button orange">Начать Бесплатно</div>
+	</div>
+	<div class="navbar-right">
+		<div class="search far fa-search"></div>
+		<div class="sign-in far fa-user-circle">Авторизация</div>
+	</div>
+</header>
+<section class="page-banner" style="background-image: url(style/img/top-banner-desktop.jpg)">
+	<div class="h1-title-wrapper">
+		<h1 class="h1">Изучай Программирование</h1>
+		<div class="title-sub"><span class="title-sub-orange">НА ITVDN</span><span class="title-sub-right">стань профессионалом в IT</span></div>
+	</div>
+	<div class="title-search-wrapper">
+		<div class="title-search far fa-search">Что Вы хотите изучить?</div>
+		<a href="#" class="search-link">полный список курсов смотрите в Каталоге</a>
+	</div>
+</section>
+<section class="page-section holder nd-holder_small d-flex flex-column row gy-3">
+	<header class="page-section__header">
+		<h2 class="h2">Популярные Специальности</h2>
+	</header>
+	<ul class="spec-list">
+		<li class="card spec-card spec-card_1">
+			<div class="spec-card-height">
+				<div class="spec-card-holder">
+					<header class="spec-card-header">
+						<h3 class="spec-card-title">Frontend Developer</h3>
+					</header>
+					<footer class="spec-card-footer">
+						<span class="para">41 курс на 7 мес.</span>
+						<span class="spec-card-link">Подробнее</span>
+					</footer>
+					<a class="cover-link" href="#"></a>
+				</div>
+			</div>
+		</li>
+		<li class="card spec-card spec-card_2">
+			<div class="spec-card-height">
+				<div class="spec-card-holder">
+					<header class="spec-card-header">
+						<h3 class="spec-card-title">Frontend Developer</h3>
+					</header>
+					<footer class="spec-card-footer">
+						<span class="para">41 курс на 7 мес.</span>
+						<span class="spec-card-link">Подробнее</span>
+					</footer>
+					<a class="cover-link" href="#"></a>
+				</div>
+			</div>
+		</li>
+		<li class="card spec-card spec-card_3">
+			<div class="spec-card-height">
+				<div class="spec-card-holder">
+					<header class="spec-card-header">
+						<h3 class="spec-card-title">Frontend Developer</h3>
+					</header>
+					<footer class="spec-card-footer">
+						<span class="para">41 курс на 7 мес.</span>
+						<span class="spec-card-link">Подробнее</span>
+					</footer>
+					<a class="cover-link" href="#"></a>
+				</div>
+			</div>
+		</li>
+		<li class="card spec-card spec-card_4">
+			<div class="spec-card-height">
+				<div class="spec-card-holder">
+					<header class="spec-card-header">
+						<h3 class="spec-card-title">Frontend Developer</h3>
+					</header>
+					<footer class="spec-card-footer">
+						<span class="para">41 курс на 7 мес.</span>
+						<span class="spec-card-link">Подробнее</span>
+					</footer>
+					<a class="cover-link" href="#"></a>
+				</div>
+			</div>
+		</li>
+		<li class="card spec-card spec-card_5">
+			<div class="spec-card-height">
+				<div class="spec-card-holder">
+					<header class="spec-card-header">
+						<h3 class="spec-card-title">Frontend Developer</h3>
+					</header>
+					<footer class="spec-card-footer">
+						<span class="para">41 курс на 7 мес.</span>
+						<span class="spec-card-link">Подробнее</span>
+					</footer>
+					<a class="cover-link" href="#"></a>
+				</div>
+			</div>
+		</li>
+		<li class="card spec-card spec-card_6">
+			<div class="spec-card-height">
+				<div class="spec-card-holder">
+					<header class="spec-card-header">
+						<h3 class="spec-card-title">Frontend Developer</h3>
+					</header>
+					<footer class="spec-card-footer">
+						<span class="para">41 курс на 7 мес.</span>
+						<span class="spec-card-link">Подробнее</span>
+					</footer>
+					<a class="cover-link" href="#"></a>
+				</div>
+			</div>
+		</li>
+		<li class="card spec-card spec-card_7">
+			<div class="spec-card-height">
+				<div class="spec-card-holder">
+					<header class="spec-card-header">
+						<h3 class="spec-card-title">Frontend Developer</h3>
+					</header>
+					<footer class="spec-card-footer">
+						<span class="para">41 курс на 7 мес.</span>
+						<span class="spec-card-link">Подробнее</span>
+					</footer>
+					<a class="cover-link" href="#"></a>
+				</div>
+			</div>
+		</li>
+		<li class="card spec-card spec-card_8">
+			<div class="spec-card-height">
+				<div class="spec-card-holder">
+					<header class="spec-card-header">
+						<h3 class="spec-card-title">Frontend Developer</h3>
+					</header>
+					<footer class="spec-card-footer">
+						<span class="para">41 курс на 7 мес.</span>
+						<span class="spec-card-link">Подробнее</span>
+					</footer>
+					<a class="cover-link" href="#"></a>
+				</div>
+			</div>
+		</li>
+		<li class="card spec-card spec-card_9">
+			<div class="spec-card-height">
+				<div class="spec-card-holder">
+					<header class="spec-card-header">
+						<h3 class="spec-card-title">Frontend Developer</h3>
+					</header>
+					<footer class="spec-card-footer">
+						<span class="para">41 курс на 7 мес.</span>
+						<span class="spec-card-link">Подробнее</span>
+					</footer>
+					<a class="cover-link" href="#"></a>
+				</div>
+			</div>
+		</li>
+		<li class="card spec-card spec-card_10">
+			<div class="spec-card-height">
+				<div class="spec-card-holder">
+					<header class="spec-card-header">
+						<h3 class="spec-card-title">Frontend Developer</h3>
+					</header>
+					<footer class="spec-card-footer">
+						<span class="para">41 курс на 7 мес.</span>
+						<span class="spec-card-link">Подробнее</span>
+					</footer>
+					<a class="cover-link" href="#"></a>
+				</div>
+			</div>
+		</li>
+	</ul>
+</section>
+<section class="page-section holder nd-holder_small d-flex flex-column row gy-3">
+	<header class="page-section__header">
+		<h2 class="h2">Акции И Новости</h2>
+	</header>
+	<div>
+		<ul class="empty-list row gy-3">
+			<li class="col-6 col-lg-3">
+				<div class="d-flex flex-column row gy-2">
+					<img src="https://itvdn.blob.core.windows.net/articles-new/articles-new-06905f75-7893-44f0-a398-802a028f8ebe.jpg" />
+					<h4 class="h6-alt">Подарки и скидки ко Дню рождения ITVDN</h4>
+					<date class="para">11 января 2022</date>
+				</div>
+			</li>
+			<li class="col-6 col-lg-3">
+				<div class="d-flex flex-column row gy-2">
+					<img src="https://itvdn.blob.core.windows.net/articles-new/articles-new-c202e5f9-0f5d-425f-afb6-764423af43ac.jpg" />
+					<h4 class="h6-alt">Новый видео курс - Entity Framework Core Базовый</h4>
+					<date class="para">10 января 2022</date>
+				</div>
+			</li>
+			<li class="col-6 col-lg-3">
+				<div class="d-flex flex-column row gy-2">
+					<img src="https://itvdn.blob.core.windows.net/articles-new/articles-new-5b37f4da-dae0-466a-a2d0-68e61fa51aee.png" />
+					<h4 class="h6-alt">Новый видео курс - Создание веб-приложений на PHP</h4>
+					<date class="para">4 января 2022</date>
+				</div>
+			</li>
+			<li class="col-6 col-lg-3">
+				<div class="d-flex flex-column row gy-2">
+					<img src="https://itvdn.blob.core.windows.net/articles-new/b38ec884-c90e-47c0-9941-2433bc409131-cover.jpg" />
+					<h4 class="h6-alt">Новый видео курс - Паттерны проектирования в Java</h4>
+					<date class="para">15 ноября 2021</date>
+				</div>
+			</li>
+		</ul>
+	</div>
+</section>
+<section class="page-section holder nd-holder_small d-flex flex-column row gy-3">
+	<header class="page-section__header">
+		<h2 class="h2">Ближайшие Вебинары</h2>
+	</header>
+	<div class="row gy-2">
+		<a class="col-12 col-lg-7 row flex-column-reverse gy-3 justify-content-end positioner" href="#">
+			<header class="row gy-1 mt-3">
+				<h4 class="webinar-name col-6 col-lg-8">Интерактивный вебинар. Soft Skills на интервью и на испытательном сроке.</h4>
+				<div class="button reverse-framed-button button-giant orange nd-button-med col-6 col-lg-4">Регистрация</div>
+				<ul class="webinar-details-list">
+					<li class="far fa-user">Татьяна Доморадова</li>
+					<li class="far fa-calendar-alt">
+						<date>17.01.2022 </date>
+					</li>
+					<li class="far fa-clock">23:00 - 01:00</li>
+				</ul>
+			</header>
+			<img src="https://itvdn.blob.core.windows.net/catalog-images/webinar-soft-skills-img.png" class="mt-0" />
+		</a>
+		<ul class="empty-list col-12 col-lg-5 row flex-row g-3 flex-lg-column">
+			<li class="col-6 col-lg-12 d-flex">
+				<a href="#" class="row justify-content-between flex-column flex-lg-row gy-3 gy-lg-0">
+					<div class="col-12 col-lg-5">
+						<img src="https://itvdn.blob.core.windows.net/catalog-images/functional-programming-js-img.png">
+					</div>
+					<div class="col-12 col-lg-7 row flex-column gy-1 justify-content-between flex-grow-1 flex-lg-grow-0">
+						<h4 class="webinar-name-small">Функциональное программирование на JavaScript</h4>
+						<ul class="webinar-details-list dd-wrap">
+							<li class="far fa-user">Марат Минулин</li>
+							<li class="far fa-calendar-alt">
+								<date>18.01.2022</date>
+							</li>
+							<li class="far fa-clock">23:00 - 01:00</li>
+						</ul>
+						<div class="button reverse-framed-button button-small orange">Регистрация</div>
+					</div>
+				</a>
+			</li>
+			<li class="col-6 col-lg-12 d-flex">
+				<a href="#" class="row justify-content-between flex-column flex-lg-row gy-3 gy-lg-0">
+					<div class="col-12 col-lg-5">
+						<img src="https://itvdn.blob.core.windows.net/catalog-images/design-patterns-for-beginners-php-img.png">
+					</div>
+					<div class="col-12 col-lg-7 row flex-column gy-1 justify-content-between flex-grow-1 flex-lg-grow-0">
+						<h4 class="webinar-name-small">Паттерны проектирования для начинающих с примерами на PHP</h4>
+						<ul class="webinar-details-list dd-wrap">
+							<li class="far fa-user">Демьян Костельный</li>
+							<li class="far fa-calendar-alt">
+								<date>27.01.2022</date>
+							</li>
+							<li class="far fa-clock">23:00 - 01:00</li>
+						</ul>
+						<div class="button reverse-framed-button button-small orange">Регистрация</div>
+					</div>
+				</a>
+			</li>
+		</ul>
+	</div>
+</section>
+<section class="full-window-section" style="background-image: url(https://itvdn.com/Content/img/home/where-to-begin.jpg)">
+	<header class="col-12">
+		<h2 class="h2 cyan">Не Знаешь, С Чего Начать?</h2>
+	</header>
+	<article class="row flex-column align-content-start gy-3 inner-holder col-12 col-lg-6 justify-content-start">
+		<header class="col-12 col-lg-10">
+			<h2 class="h2-light cyan">Выбери специальность, которая тебе интересна</h2>
+		</header>
+		<p class="para-window col-12 col-lg-7">Чему ты хочешь научиться? Какие программы создавать? Веб-сайты, бизнес-приложения, игры, сервисные приложения для мобильных устройств? Или тебе интересна работа с данными?</p>
+		<p class="para-window col-12 col-lg-7">Прислушайся к себе. Тебе помогут записи вебинаров, в которых рассмотрены особенности разных профессий и путь новичка. Следуй советам тех, кто добился успеха и ты достигнешь цели.</p>
+		<div class="d-flex"><a class="button filled-button button-medium cyan align-self-start">Смотреть</a></div>
+	</article>
+</section>
+<section class="page-section holder nd-holder_small d-flex flex-column row gy-3">
+	<header class="page-section__header">
+		<h2 class="h2">Почему Выбирают Itvdn</h2>
+	</header>
+	<ul class="dd-grid dd-wrap empty-list dd-s-b dd-v-gap-2 dd-gap-2">
+		<li class="dd-grid dd-column dd-v-gap-1 dd-col-4 nd-col-6 td-col-6">
+			<img src="https://itvdn.com/Content/img/home/plan.jpg" />
+			<h4 class="h4">План обучения</h4>
+			<p class="para">Следуя четко выверенному плану обучения, ты сможешь сформировать необходимый набор знаний и навыков. Учебные планы составлены на основе требований IT компаний к специалисту.</p>
+		</li>
+		<li class="dd-grid dd-column dd-v-gap-1 dd-col-4 nd-col-6 td-col-6">
+			<img src="https://itvdn.com/Content/img/home/modern_knowledge_base.jpg" />
+			<h4 class="h4">Современная база знаний</h4>
+			<p class="para">Более 180 видео курсов по всем самым востребованным языкам программирования и информационным технологиям – как для начинающих разработчиков, так и профессионалов.</p>
+		</li>
+		<li class="dd-grid dd-column dd-v-gap-1 dd-col-4 nd-col-6 td-col-6">
+			<img src="https://itvdn.com/Content/img/home/laptop.jpg" />
+			<h4 class="h4">Учебные материалы</h4>
+			<p class="para">В каждом уроке есть набор учебных материалов – опорный конспект с самой важной информацией, примеры кода, задания для самостоятельной работы, дополнительные полезные ресурсы.</p>
+		</li>
+		<li class="dd-grid dd-column dd-v-gap-1 dd-col-4 nd-col-6 td-col-6">
+			<img src="https://itvdn.com/Content/img/home/hw-check.jpg" />
+			<h4 class="h4">Проверка домашних заданий</h4>
+			<p class="para">Программист должен уметь писать код, решать поставленные задачи. Выполняй задания к каждому уроку и отправляй их на проверку. Работай над ошибками, чтобы твои навыки становились лучше.</p>
+		</li>
+		<li class="dd-grid dd-column dd-v-gap-1 dd-col-4 nd-col-6 td-col-6">
+			<img src="https://itvdn.com/Content/img/home/growth.jpg" />
+			<h4 class="h4">Постоянный рост и развитие</h4>
+			<p class="para">Мы не стоим на месте! Каждый месяц на ITVDN появляется 2-3 новых курса по самым новым технологиям, а также обновляются и дополняются ранее созданные курсы.</p>
+		</li>
+		<li class="dd-grid dd-column dd-v-gap-1 dd-col-4 nd-col-6 td-col-6">
+			<img src="https://itvdn.com/Content/img/home/knowledge-check.jpg" />
+			<h4 class="h4">Проверка знаний и сертификат</h4>
+			<p class="para">После каждого урока проверь себя - пройди онлайн тестирование. В конце курса пройди тестирование по всему курсу и получи Сертификат. А после обучения по всей специальности сдай финальный экзамен и получи Диплом.</p>
+		</li>
+	</ul>
+</section>
+<section class="full-window-section" style="background-image: url(	https://itvdn.com/Content/img/home/simulator.jpg)">
+	<header class="dd-col-12">
+		<h2 class="h2 cyan">Интерактивный Практикум</h2>
+	</header>
+	<article class="dd-grid dd-column dd-v-gap-2 inner-holder dd-col-6 dd-f-s nd-v-gap-1 td-col-12">
+		<header class="dd-col-10 nd-col-12">
+			<h2 class="h2-light cyan">Формируй навыки написания кода</h2>
+		</header>
+		<p class="para-window dd-col-7 nd-col-12">
+			Как перейти от теории к практике? Надо писать код!
+			Начни с решения самых простых задач. На ITVDN ты найдешь интерактивные практикумы по всем базовым языкам программирования и самым необходимым технологиям.
+		</p>
+		<p class="para-window dd-col-7 nd-col-12">Тренируйся, выполняя задания в практикуме. Мгновенная проверка твоих решений и подсказки помогут тебе улучшить навыки написания кода. Набери максимум баллов, используя минимум попыток и подсказок. Это круто!</p>
+		<a class="button filled-button button-medium cyan dd-self-s">Начать</a>
+	</article>
+</section>
+<section class="dd-grid dd-column dd-v-gap-2 subscription-section">
+	<header>
+		<h2 class="h4-alt ta-center">Пакеты Подписки С Доступом Ко Всем Курсам И Сервисам</h2>
+	</header>
+	<ul class="empty-list dd-grid dd-s-b dd-h-gap-1-5 dd-wrap dd-v-gap-1">
+		<li class="sub-card dd-col-4 nd-col-12 td-col-12">
+			<header class="sub-card-header">
+				<h3 class="sub-card-title">Стартовый</h3>
+			</header>
+			<ul class="check-list cyan">
+				<li class="list-item">Все видеокурсы на 3 месяца</li>
+				<li class="list-item">Тестирование по 10 курсам</li>
+				<li class="list-item">Проверка 5 домашних заданий</li>
+				<li class="list-item">Консультация с тренером 30 мин</li>
+			</ul>
+			<footer class="sub-card-footer">
+				<span class="dollar">49.99</span>
+				<div class="button filled-button button-medium cyan">Подписка</div>
+			</footer>
+		</li>
+		<li class="sub-card dd-col-4 nd-col-12 td-col-12">
+			<header class="sub-card-header">
+				<h3 class="sub-card-title">Базовый</h3>
+			</header>
+			<ul class="check-list orange">
+				<li class="list-item">Все видеокурсы на 6 месяцев</li>
+				<li class="list-item">Тестирование по 16 курсам</li>
+				<li class="list-item">Проверка 10 домашних заданий</li>
+				<li class="list-item">Консультация с тренером 60 мин</li>
+			</ul>
+			<footer class="sub-card-footer">
+				<span class="dollar">89.99</span>
+				<div class="button filled-button button-medium orange">Подписка</div>
+			</footer>
+		</li>
+		<li class="sub-card dd-col-4 nd-col-12 td-col-12">
+			<header class="sub-card-header">
+				<h3 class="sub-card-title">Премиум</h3>
+			</header>
+			<ul class="check-list platinum">
+				<li class="list-item">Все видеокурсы на 12 месяца</li>
+				<li class="list-item">Тестирование по 24 курсам</li>
+				<li class="list-item">Проверка 20 домашних заданий</li>
+				<li class="list-item">Консультация с тренером 120 мин</li>
+			</ul>
+			<footer class="sub-card-footer">
+				<span class="dollar">169.99</span>
+				<div class="button filled-button button-medium platinum">Подписка</div>
+			</footer>
+		</li>
+	</ul>
+</section>
+<footer class="page-footer">
+	<ul class="page-footer-info">
+		<li>
+			<h5 class="page-footer-info__column-title">Обучение</h5>
+			<ul class="empty-list">
+				<li><a href="#" class="standart-link">Консультация с тренером</a></li>
+				<li><a href="#" class="standart-link">Каталог курсов</a></li>
+				<li><a href="#" class="standart-link">IT специальности</a></li>
+				<li><a href="#" class="standart-link">Планы подписок</a></li>
+				<li><a href="#" class="standart-link">Подарочные сертификаты</a></li>
+				<li><a href="#" class="standart-link">Live-Online обучение</a></li>
+				<li><a href="#" class="standart-link">Видео канал</a></li>
+				<li><a href="#" class="standart-link">Статьи</a></li>
+				<li><a href="#" class="standart-link">Форум</a></li>
+			</ul>
+		</li>
+		<li>
+			<h5 class="page-footer-info__column-title">Популярное</h5>
+			<ul class="empty-list">
+				<li><a href="#" class="standart-link">С чего начать обучение</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки Python</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки C#</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки ASP.NET Core</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки Java</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки HTML&CSS</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки JavaScript</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки Angular</a></li>
+				<li><a href="#" class="standart-link">Видеоуроки React</a></li>
+			</ul>
+		</li>
+		<li>
+			<h5 class="page-footer-info__column-title">Сотрудничество</h5>
+			<ul class="empty-list">
+				<li><a href="#" class="standart-link">Стань автором</a></li>
+				<li><a href="#" class="standart-link">Для IT компаний</a></li>
+			</ul>
+		</li>
+		<li>
+			<h5 class="page-footer-info__column-title">О Проекте</h5>
+			<ul class="empty-list">
+				<li><a href="#" class="standart-link">О проекте</a></li>
+				<li><a href="#" class="standart-link">Контакты</a></li>
+				<li><a href="#" class="standart-link">FAQ</a></li>
+				<li><a href="#" class="standart-link">Архив рассылок</a></li>
+				<li><a href="#" class="standart-link">Авторы</a></li>
+				<li><a href="#" class="standart-link">Социальный проект</a></li>
+			</ul>
+		</li>
+	</ul>
+	<div class="page-footer-mailing">
+		<h4 class="h4 mailing">Подпишись На Рассылку</h4>
+		<p class="para">Будь в курсе новых акций ITVDN, видео уроков и вебинаров</p>
+		<div class="mailing-input"></div>
+	</div>
+	<div class="footer-down">
+		<ul class="empty-list dd-grid dd-h-gap-1">
+			<li><a href="#" class="standart-link">Условия пользования</a></li>
+			<li><a href="#" class="standart-link">Заявление о конфиденциальности</a></li>
+			<li><a href="#" class="standart-link">Договор публичной оферты</a></li>
+			<li><a href="#" class="standart-link">Карта сайта</a></li>
+		</ul>
+		<span class="all-rights">©2022 ITVDN, все права защищены</span>
+	</div>
+</footer>
+</main>
+</body>
+</html>
