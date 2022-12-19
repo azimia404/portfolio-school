@@ -1,4 +1,6 @@
-# Portfolio work. A copy of [ITVDN online programming courses page](https://itvdn.com/ru)
+# Portfolio work. 
+
+A copy of [ITVDN online programming courses page](https://itvdn.com/ru).
 
 ## Languages
 * CSS
