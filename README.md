@@ -12,6 +12,7 @@ A copy of [ITVDN online programming courses page](https://itvdn.com/ru).
   * Bootstrap grid system
   * Own grid system
 * Adaptive
+* Animations
 
 ## HTML
 * Semantics
